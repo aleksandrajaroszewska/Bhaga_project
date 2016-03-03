@@ -1,6 +1,6 @@
 @charset "UTF-8";
 .main {
-  background-image: url("C:/Users/rafalix/Coderslab/warsztaty/Bhaga/images/main_picture-1.jpg");
+  background-image: url("C:/Users/rafalix/Coderslab/projekty/Bhaga/images/main_picture-1.jpg");
   background-size: cover;
   background-position: center;
   height: 1100px; }
@@ -98,9 +98,6 @@
   .nav_section nav {
     height: 145px;
     background-color: #FFFFFF; }
-    .nav_section nav img {
-      width: 145px;
-      height: 40px; }
   .nav_section .container {
     height: 795px;
     background-color: #EEEEEE; }
