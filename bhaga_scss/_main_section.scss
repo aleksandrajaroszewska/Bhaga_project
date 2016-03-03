@@ -1,0 +1,159 @@
+.main {
+  
+  background-image: url("C:/Users/rafalix/Coderslab/warsztaty/Bhaga/images/main_picture-1.jpg");   
+  background-size:cover;
+  background-position:center;
+  height:1100px;
+    
+    
+  .grid {
+    
+        position:relative;
+        width:100%;
+        max-width:1200px;
+        height: 1100px;
+        
+      /*vertical - ustawianie w linii pionowej*/  
+    .mid{ /*środkowe kształty*/
+      .box{
+         position:absolute;
+         top:540px;
+         width:167px;
+         height:181px;
+        
+       img{
+        position:absolute;
+        &:nth-child(2){
+        top:35px;              
+                      }
+           }        
+        p{
+          top:115px;  
+         }
+         
+       }
+     } 
+        
+     .bot { /*dolne kształty*/
+         .box{
+         position:absolute;
+         top:760px;
+         width:167px;
+         height:181px;
+            
+        img { 
+          position:absolute;
+          top: 1px;
+          &:nth-child(2){
+          top:35px;              
+              }
+            }
+          p{
+          top:115px;  
+        }
+          }
+          }
+     
+      .mid, .bot{
+          p{
+          position:absolute;    
+          font-family:Lato, sans-serif;
+          font-size: 20px;
+          color:white;  
+           } 
+     }
+     /*ustawianie w linii poziomej*/
+     .first { 
+         .box{
+         img:nth-child(2){
+             left:56px;}
+         p {
+             left:50px;
+         }
+         }
+       }  
+     .second{ /*napisy*/
+          .container{
+              position:absolute;
+              top:300px;
+              left:50px;
+              width:1070px;
+              height:135px;
+             
+             h1{
+            color:white;
+             font-family: Lato(400), sans-serif;
+              font-weight:lighter;  
+             font-size:39px;
+             margin-left:200px;     
+    
+             }
+              h2{
+                color:white;
+                font-size:22px;
+                margin-left:80px;  
+                padding:20px;
+                text-align:center;  
+                  
+              }
+         }
+         
+     }
+     .third {
+        
+         .box{
+         img:nth-child(2){
+             left:56px;}
+         p {
+             left:55px;
+         }
+         }
+       } 
+     
+     .four {
+         img{
+             position:absolute;
+             top:125px;
+             left:350px;
+             
+         } 
+         
+     }
+     .five {
+         .box{
+         img:nth-child(2){
+             left:58px;}
+         p {
+             left:52px;
+         }
+         }
+       } 
+     .seven {
+         .box{
+         img:nth-child(2){
+             left:56px;}
+         p {
+             left:50px;
+         }
+         }
+       }  
+     .nine {
+         .box{
+         img:nth-child(2){
+             left:56px;}
+         p {
+             left:60px;
+         }
+         }
+       }  
+      .eleven {
+          .box{
+         img:nth-child(2){
+             left:56px;}
+         p {
+             left:50px;
+         }
+       } 
+     }
+  }
+}
