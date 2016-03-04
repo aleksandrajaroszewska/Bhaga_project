@@ -34,4 +34,13 @@
 .col-11 {width: 91.66%;}
 .col-12 {width: 100%;}
 
-
+@media (max-width:900px){
+    .col-1{
+        width:40%   }
+}
+@media (max-width:400px){
+    .col-1{
+       width:80%; 
+    }
+    
+}
