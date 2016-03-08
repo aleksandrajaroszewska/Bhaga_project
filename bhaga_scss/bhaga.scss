@@ -1,14 +1,16 @@
 @import "main_section";
 @import "nav_section";
 
-* {box-sizing:border-box;
-}
+/* {box-sizing:border-box;
+    font-family:lato, sans-serif;
+}*/
 
 .row:before,
 .row:after {
     content: "";
     display: table;
     clear: both;
+   
 }
 
 [class*="col-"] {
@@ -17,6 +19,7 @@
     padding: 15px;
     border: 1px solid lightblue;
     min-height: 1px;
+    box-sizing:border-box;
     height:100%;
     
 }
@@ -36,11 +39,11 @@
 
 @media (max-width:900px){
     .col-1{
-        width:40%   }
+        width:20%   }
 }
 @media (max-width:400px){
     .col-1{
-       width:80%; 
+       width:70%; 
     }
     
 }
