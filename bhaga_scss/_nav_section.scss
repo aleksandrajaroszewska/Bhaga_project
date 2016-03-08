@@ -10,6 +10,12 @@ nav{//pasek z nawigacją
     height:100%;
     max-width:1200px;
            
+      %pozycja_p {
+           position:absolute;   
+            top:68px;
+            color:#8D8D8D;
+                 
+      }  
       
       .first{
           img{
@@ -20,48 +26,51 @@ nav{//pasek z nawigacją
       }
       .six {
           p{
-            margin-top:55px;
-            margin-left:-15px;  
+            @extend %pozycja_p;
+            margin-left:-15px;
+           
           } 
       }
       .seven {
           p{
-            margin-top:55px;
-            margin-left:-25px;  
+            @extend %pozycja_p;
+            color:#9E459A;  
+            margin-left:-25px;
+            
           } 
       
       }
     
     .eight {
           p{
-            margin-top:55px;
+            @extend %pozycja_p;
             margin-left:-31px;  
           } 
       }
     
     .nine {
           p{
-            margin-top:55px;
+            @extend %pozycja_p;
             margin-left:-55px;  
           } 
       }
       .ten {
           p{
-            margin-top:55px;
+            @extend %pozycja_p;
             margin-left:-37px;  
           } 
       }
     
     .eleven {
           p{
-            margin-top:55px;
+            @extend %pozycja_p;
             margin-left:1px;  
           } 
       }
     
     .twelve {
           p{
-            margin-top:55px;
+            @extend %pozycja_p;
             margin-left:-18px;  
           } 
       }
