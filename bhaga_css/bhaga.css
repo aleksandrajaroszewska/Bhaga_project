@@ -210,48 +210,49 @@ nav {
         top: 68px; }
 
 .container3 {
-  height: 1027px;
-  position: relative; }
+  height: 64em; }
   .container3 .row-3 {
     width: 100%;
     max-width: 1200px;
-    height: 100%; }
+    height: 100%;
+    position: relative; }
     .container3 .row-3 .first img {
-      margin-top: 380px; }
+      margin-top: 23.75em; }
     .container3 .row-3 .five .aboutBox {
       position: absolute;
-      top: 127px;
-      left: 465px;
-      width: 270px;
-      height: 115px; }
-      .container3 .row-3 .five .aboutBox span {
-        font-size: 50px;
-        font-weight: bold;
+      top: 8em;
+      left: 29em;
+      width: 16.85em;
+      height: 7.18em; }
+    .container3 .row-3 .five .aboutBox span {
+      font-size: 50px;
+      font-weight: bold;
+      color: #9E459A; }
+    .container3 .row-3 .five .aboutBox .verRight {
+      margin-top: -0.5em;
+      margin-left: 5.4em;
+      display: block; }
+    .container3 .row-3 .five .aboutBox .verLeft {
+      margin-top: 23px;
+      margin-left: -5px;
+      display: block; }
+    .container3 .row-3 .five .aboutBox .horRight {
+      margin-top: -167px;
+      margin-left: 223px;
+      display: block; }
+    .container3 .row-3 .five .aboutBox .horLeft {
+      display: block;
+      margin-top: -50px;
+      margin-left: 2px; }
+    .container3 .row-3 .five .aboutBox p {
+      color: #8D8D8D;
+      font-size: 47px;
+      display: inline-block;
+      position: absolute;
+      top: 25px;
+      left: 38px; }
+      .container3 .row-3 .five .aboutBox p span {
         color: #9E459A; }
-      .container3 .row-3 .five .aboutBox #verRight {
-        display: block;
-        margin-top: -8px;
-        margin-left: 267px; }
-      .container3 .row-3 .five .aboutBox #verLeft {
-        display: block;
-        margin-top: 23px;
-        margin-left: -5px; }
-      .container3 .row-3 .five .aboutBox #horRight {
-        display: block;
-        margin-top: -167px;
-        margin-left: 223px; }
-      .container3 .row-3 .five .aboutBox #horLeft {
-        display: block;
-        margin-top: -50px;
-        margin-left: 2px; }
-      .container3 .row-3 .five .aboutBox p {
-        color: #8D8D8D;
-        font-size: 47px;
-        position: absolute;
-        top: 35px;
-        left: 38px; }
-        .container3 .row-3 .five .aboutBox p span {
-          color: #9E459A; }
     .container3 .row-3 .eight .rightBox {
       position: relative;
       top: 372px;
@@ -274,6 +275,124 @@ nav {
         -moz-box-shadow: -0px -5px 0 0px #6B2E68 inset;
         -webkit-box-shadow: -0px -5px 0 0px   #6B2E68 inset;
         box-shadow: -0px -5px 0 0px #6B2E68 inset; }
+
+.bottom_photo {
+  background-image: url("C:/Users/rafalix/Coderslab/projekty/Bhaga/images/section_about_background_image.jpg");
+  background-size: cover;
+  background-position: center;
+  height: 39em; }
+
+.bottom_photo {
+  position: relative; }
+  .bottom_photo .row-4 {
+    height: 100%;
+    width: 100%;
+    max-width: 1200px; }
+    .bottom_photo .row-4 .third .box3 {
+      height: 4.125em;
+      width: 47.5em;
+      position: absolute;
+      top: 23.75em; }
+      .bottom_photo .row-4 .third .box3 p {
+        color: #FFFFFF;
+        font-size: 48px;
+        font-family: lato;
+        margin-left: 5px; }
+    .bottom_photo .row-4 .six img {
+      position: absolute; }
+      .bottom_photo .row-4 .six img:nth-child(1) {
+        top: 9.375em; }
+      .bottom_photo .row-4 .six img:nth-child(2) {
+        top: 13.125em;
+        left: 35.3125em; }
+
+.our_team {
+  width: 100%;
+  height: 1120px;
+  position: relative; }
+  .our_team .row-5 {
+    width: 100%;
+    max-width: 1200px;
+    height: 50%; }
+    .our_team .row-5 .five .aboutBox {
+      /*Our team box*/
+      position: absolute;
+      top: 127px;
+      left: 465px;
+      width: 270px;
+      height: 115px; }
+      .our_team .row-5 .five .aboutBox span {
+        font-size: 50px;
+        font-weight: bold;
+        color: #9E459A; }
+      .our_team .row-5 .five .aboutBox .verRight {
+        margin-top: -0.5em;
+        margin-left: 267px;
+        display: block; }
+      .our_team .row-5 .five .aboutBox .verLeft {
+        margin-top: 23px;
+        margin-left: -5px;
+        display: block; }
+      .our_team .row-5 .five .aboutBox .horRight {
+        margin-top: -167px;
+        margin-left: 223px;
+        display: block; }
+      .our_team .row-5 .five .aboutBox .horLeft {
+        display: block;
+        margin-top: -50px;
+        margin-left: 2px; }
+      .our_team .row-5 .five .aboutBox p {
+        color: #8D8D8D;
+        font-size: 47px;
+        display: inline-block;
+        position: absolute;
+        top: 25px;
+        left: 38px; }
+        .our_team .row-5 .five .aboutBox p span {
+          color: #9E459A; }
+    .our_team .row-5 .six img:nth-child(1), .our_team .row-5 .seven img:nth-child(1) {
+      width: 67px;
+      height: 72px;
+      position: absolute;
+      top: 400px; }
+    .our_team .row-5 .six img:nth-child(2), .our_team .row-5 .seven img:nth-child(2) {
+      width: 17px;
+      height: 23px;
+      margin-top: 410px;
+      margin-left: 25px; }
+    .our_team .row-5 .six img:nth-child(2) {
+      transform: rotate(180deg);
+      margin-left: 20px; }
+  .our_team .row-6 {
+    width: 100%;
+    max-width: 1200px;
+    height: 50%; }
+    .our_team .row-6 .circle {
+      width: 250px;
+      height: 250px;
+      background-color: #CDCDCD;
+      border-radius: 50%;
+      margin-top: 60px;
+      margin-left: 56px; }
+    .our_team .row-6 .textBox {
+      width: 293px;
+      height: 150px;
+      margin-top: 60px;
+      margin-left: 56px;
+      margin-left: 30px;
+      text-align: center;
+      font-family: lato; }
+      .our_team .row-6 .textBox h2 {
+        font-size: 23px;
+        color: #484848;
+        margin-top: 15px; }
+      .our_team .row-6 .textBox h3 {
+        font-size: 18px;
+        color: #ACACAC;
+        margin-top: 15px; }
+      .our_team .row-6 .textBox img {
+        margin-top: 5px;
+        padding: 13px; }
 
 /* {box-sizing:border-box;
     font-family:lato, sans-serif;

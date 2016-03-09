@@ -1,53 +1,65 @@
 .container3{ 
-    height:1027px;
-    position:relative;
+    height:64em;
+    
 .row-3{
     width:100%;
     max-width:1200px;
     height:100%;
+    position:relative;
     .first{
         img{
-            margin-top:380px;
+            margin-top:23.75em;
         } 
     }
+    %aboutBox{
+         position:absolute;
+         top:8em;
+          left:29em;
+          width:16.85em;
+          height:7.18em;
+         
+    }
+    
+    %span{
+        font-size:50px;
+        font-weight:bold; 
+        color:#9E459A;
+       
+    }
+    
     .five{
         .aboutBox{
-          position:absolute;
-            top:127px;
-            left:465px;
-          width:270px;
-          height:115px;
+          @extend %aboutBox;
          
             span{
-                font-size:50px;
-                font-weight:bold; 
-                color:#9E459A;
+              @extend %span;  
             }
-            #verRight{
-            display: block;    
-               margin-top:-8px;
-               margin-left:267px;
+            .verRight{
+              margin-top:-0.5em;
+              margin-left:5.4em;
+              display: block;
             }
-            #verLeft{
-               display: block;    
+            .verLeft{  
                margin-top:23px;
                margin-left:-5px;
+               display: block;
             }    
-            #horRight{
-                display: block;    
+            .horRight{ 
                margin-top:-167px;
                margin-left:223px;
+               display: block;
             }   
-            #horLeft{
-               display: block;    
+            .horLeft{
+              display: block;
                margin-top:-50px;
                margin-left:2px;
             }
             p{
              color:#8D8D8D;
              font-size:47px;
+             display:inline-block;    
               position:absolute;
-                top:35px;
+                top:25px;
                 left:38px;
                 & span{
                     color:#9E459A;
@@ -55,7 +67,7 @@
                 
             }
          }
-      }
+    }
     .eight{
         .rightBox{
             position:relative;
@@ -85,8 +97,51 @@
             }
             
         }
+    }    
+    
     }
-    
-    
+}
+%backgroundPicture{
+     background-image: url("C:/Users/rafalix/Coderslab/projekty/Bhaga/images/section_about_background_image.jpg");   
+     background-size:cover;
+     background-position:center;
+     height:39em;
+}
+.bottom_photo{
+   @extend %backgroundPicture;
+    position:relative;
+    .row-4{
+        height:100%;
+        width:100%;
+        max-width:1200px;
+        .third{
+            .box3{
+                height:4.125em;
+                width:47.5em;
+                position:absolute;
+                top:23.75em;
+                p{
+                    color:#FFFFFF;
+                    font-size:48px;
+                    font-family:lato;
+                    margin-left:5px;
+                }
+            }
+        }
+          
+     
+        .six{
+            img{
+                position:absolute;
+                &:nth-child(1){
+                    top:9.375em;
+                }
+                &:nth-child(2){
+                    top:13.125em;
+                    left:35.3125em;
+                }
+            }
+        }  
+        
     }
 }
