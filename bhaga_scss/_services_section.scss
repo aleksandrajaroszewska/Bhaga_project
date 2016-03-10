@@ -1,0 +1,49 @@
+.services {
+  width:100%;
+  height:910px;
+  position:relative;
+  background-color:#EEEEEE;
+    
+    .row-8 {
+        width:100%;
+        max-width:1200px;
+        height:100%;
+        .second, .five, .ten, .eight {
+            .jumbotron{
+               
+                width:195px;
+                height:110px;
+                margin-top:150px;
+                margin-left:-45px;
+                text-align: center;
+                font-family:lato, sans-serif;
+                h3{
+                    font-size:54px;
+                }
+                p{
+                    font-size:16px;
+                    padding:10px;
+                    color:#ACACAC;
+                }
+            }
+        }
+        .five{
+            .jumbotron{
+                margin-left:-60px;
+            }
+        }
+         .eight{
+            .jumbotron{
+                margin-left:-80px;
+                }
+          }
+          .ten{
+            .jumbotron{
+                margin-left:-15px;
+            }
+        }
+        
+        
+        
+  }
+}
