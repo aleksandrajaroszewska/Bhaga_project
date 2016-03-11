@@ -4,10 +4,11 @@
   position:relative;
   background-color:#EEEEEE;
     
-    .row-8 {
+    .row-9 {
         width:100%;
         max-width:1200px;
         height:100%;
+      
         .second, .five, .ten, .eight {
             .jumbotron{
                
@@ -27,19 +28,69 @@
                 }
             }
         }
+        
+          .second{
+            .text {
+                margin-top:340px;
+                margin-left:40px;
+                height:220px;
+                width:960px;
+                font-family:lato, sans-serif;
+                color:#484848;
+                text-align: center;
+                h2{
+                    text-indent:10px; 
+                    font-size:30px;
+                }
+                p{
+                    font-size:17px;
+                    margin-top:10px;
+                    font-weight:bold;
+                }
+                .spanBox{
+                    margin-left:-18px;
+                span{
+                    
+                    box-sizing: border-box;
+                    display:inline-block;
+                    width:11px;
+                    height:11px;
+                    border-radius:50%;
+                    border:1px solid grey;
+                    margin-top:20px;
+                    margin-left:-35px;
+                     &:nth-child(2){
+                        background-color: #484848;
+                    }   
+                 }
+                   
+               } 
+              }
+        }
         .five{
             .jumbotron{
-                margin-left:-60px;
+                margin-left:40px;
+            }
+        }
+        .six{
+            .circle {
+               
+            width:150px;
+            height:150px;
+             background-color:#CDCDCD;
+             border-radius:50%;
+             margin-top:396px;
+             margin-left:110px;
             }
         }
          .eight{
             .jumbotron{
-                margin-left:-80px;
+                margin-left:10px;
                 }
           }
           .ten{
             .jumbotron{
-                margin-left:-15px;
+                margin-left:75px;
             }
         }
         

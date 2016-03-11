@@ -364,17 +364,17 @@ nav {
     .our_team .row-5 .six img:nth-child(2) {
       transform: rotate(180deg);
       margin-left: 20px; }
+  .our_team .row-6 .circle {
+    width: 250px;
+    height: 250px;
+    background-color: #CDCDCD;
+    border-radius: 50%;
+    margin-top: 60px;
+    margin-left: 56px; }
   .our_team .row-6 {
     width: 100%;
     max-width: 1200px;
     height: 50%; }
-    .our_team .row-6 .circle {
-      width: 250px;
-      height: 250px;
-      background-color: #CDCDCD;
-      border-radius: 50%;
-      margin-top: 60px;
-      margin-left: 56px; }
     .our_team .row-6 .textBox {
       width: 293px;
       height: 150px;
@@ -399,65 +399,65 @@ nav {
   width: 100%;
   height: 820px;
   position: relative; }
-  .skils .row-6 {
+  .skils .row-7 {
     width: 100%;
     max-width: 1200px;
     height: 100%; }
-    .skils .row-6 .second .container, .skils .row-6 .seven .container {
+    .skils .row-7 .second .container, .skils .row-7 .seven .container {
       width: 430px;
       margin-top: 400px;
       margin-left: 20px; }
-      .skils .row-6 .second .container h2, .skils .row-6 .seven .container h2 {
+      .skils .row-7 .second .container h2, .skils .row-7 .seven .container h2 {
         color: black;
         font-size: 20px;
         font-weight: bold;
         font-family: lato, sans-serif;
         padding: 20px; }
-        .skils .row-6 .second .container h2 span, .skils .row-6 .seven .container h2 span {
+        .skils .row-7 .second .container h2 span, .skils .row-7 .seven .container h2 span {
           float: right;
           color: #484848;
           font-weight: lighter; }
-      .skils .row-6 .second .container .progress, .skils .row-6 .seven .container .progress {
+      .skils .row-7 .second .container .progress, .skils .row-7 .seven .container .progress {
         width: 425px;
         height: 25px; }
-        .skils .row-6 .second .container .progress .color, .skils .row-6 .seven .container .progress .color {
+        .skils .row-7 .second .container .progress .color, .skils .row-7 .seven .container .progress .color {
           background: #9E459A;
           color: #9E459A; }
-    .skils .row-6 .five .aboutBox {
-      /*Our team box*/
+    .skils .row-7 .five .aboutBox {
+      /*Our skills box*/
       position: absolute;
       top: 127px;
       left: 465px;
       width: 270px;
       height: 115px; }
-      .skils .row-6 .five .aboutBox span {
+      .skils .row-7 .five .aboutBox span {
         font-size: 50px;
         font-weight: bold;
         color: #9E459A; }
-      .skils .row-6 .five .aboutBox .verRight {
+      .skils .row-7 .five .aboutBox .verRight {
         margin-top: -0.5em;
         margin-left: 267px;
         display: block; }
-      .skils .row-6 .five .aboutBox .verLeft {
+      .skils .row-7 .five .aboutBox .verLeft {
         margin-top: 23px;
         margin-left: -5px;
         display: block; }
-      .skils .row-6 .five .aboutBox .horRight {
+      .skils .row-7 .five .aboutBox .horRight {
         margin-top: -167px;
         margin-left: 223px;
         display: block; }
-      .skils .row-6 .five .aboutBox .horLeft {
+      .skils .row-7 .five .aboutBox .horLeft {
         display: block;
         margin-top: -50px;
         margin-left: 2px; }
-      .skils .row-6 .five .aboutBox p {
+      .skils .row-7 .five .aboutBox p {
         color: #8D8D8D;
         font-size: 47px;
         display: inline-block;
         position: absolute;
         top: 25px;
         left: 38px; }
-        .skils .row-6 .five .aboutBox p span {
+        .skils .row-7 .five .aboutBox p span {
           color: #9E459A; }
 
 .services {
@@ -465,29 +465,64 @@ nav {
   height: 910px;
   position: relative;
   background-color: #EEEEEE; }
-  .services .row-8 {
+  .services .row-9 {
     width: 100%;
     max-width: 1200px;
     height: 100%; }
-    .services .row-8 .second .jumbotron, .services .row-8 .five .jumbotron, .services .row-8 .ten .jumbotron, .services .row-8 .eight .jumbotron {
+    .services .row-9 .second .jumbotron, .services .row-9 .five .jumbotron, .services .row-9 .ten .jumbotron, .services .row-9 .eight .jumbotron {
       width: 195px;
       height: 110px;
       margin-top: 150px;
       margin-left: -45px;
       text-align: center;
       font-family: lato, sans-serif; }
-      .services .row-8 .second .jumbotron h3, .services .row-8 .five .jumbotron h3, .services .row-8 .ten .jumbotron h3, .services .row-8 .eight .jumbotron h3 {
+      .services .row-9 .second .jumbotron h3, .services .row-9 .five .jumbotron h3, .services .row-9 .ten .jumbotron h3, .services .row-9 .eight .jumbotron h3 {
         font-size: 54px; }
-      .services .row-8 .second .jumbotron p, .services .row-8 .five .jumbotron p, .services .row-8 .ten .jumbotron p, .services .row-8 .eight .jumbotron p {
+      .services .row-9 .second .jumbotron p, .services .row-9 .five .jumbotron p, .services .row-9 .ten .jumbotron p, .services .row-9 .eight .jumbotron p {
         font-size: 16px;
         padding: 10px;
         color: #ACACAC; }
-    .services .row-8 .five .jumbotron {
-      margin-left: -60px; }
-    .services .row-8 .eight .jumbotron {
-      margin-left: -80px; }
-    .services .row-8 .ten .jumbotron {
-      margin-left: -15px; }
+    .services .row-9 .second .text {
+      margin-top: 340px;
+      margin-left: 40px;
+      height: 220px;
+      width: 960px;
+      font-family: lato, sans-serif;
+      color: #484848;
+      text-align: center; }
+      .services .row-9 .second .text h2 {
+        text-indent: 10px;
+        font-size: 30px; }
+      .services .row-9 .second .text p {
+        font-size: 17px;
+        margin-top: 10px;
+        font-weight: bold; }
+      .services .row-9 .second .text .spanBox {
+        margin-left: -18px; }
+        .services .row-9 .second .text .spanBox span {
+          box-sizing: border-box;
+          display: inline-block;
+          width: 11px;
+          height: 11px;
+          border-radius: 50%;
+          border: 1px solid grey;
+          margin-top: 20px;
+          margin-left: -35px; }
+          .services .row-9 .second .text .spanBox span:nth-child(2) {
+            background-color: #484848; }
+    .services .row-9 .five .jumbotron {
+      margin-left: 40px; }
+    .services .row-9 .six .circle {
+      width: 150px;
+      height: 150px;
+      background-color: #CDCDCD;
+      border-radius: 50%;
+      margin-top: 396px;
+      margin-left: 110px; }
+    .services .row-9 .eight .jumbotron {
+      margin-left: 10px; }
+    .services .row-9 .ten .jumbotron {
+      margin-left: 75px; }
 
 /* {box-sizing:border-box;
     font-family:lato, sans-serif;
