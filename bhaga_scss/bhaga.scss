@@ -4,10 +4,14 @@
 @import "our_team";
 @import "skills_section";
 @import "services_section";
+@import "portfolio";
 
-/* {box-sizing:border-box;
+body {
+   
     font-family:lato, sans-serif;
-}*/
+    box-sizing: border-box;
+    
+}
 
 .row:before,
 .row:after {
