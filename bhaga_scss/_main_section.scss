@@ -1,18 +1,17 @@
 
 .main {
-   background-image: url("../images/main_picture-1.jpg");   
-    background-size:cover;
-    background-position:center;
-   
-    
+   background-image: url("../images/main_picture-1.jpg");
+    width: auto;
+     
     .row{
         margin:0 auto;
         height:50%;
         width:100%;
         max-width:1200px;
-        border:1px solid white;
         box-sizing: border-box;
+        
     }
+    
     .mainTop {
         
         .top {           
@@ -25,12 +24,12 @@
                 margin:auto;
             }
              h1{
-             font-size:2.43em;
+             font-size:2.43rem;
              }
               h2{
                 
-                font-size:1.37em;
-                padding-top:1.5em;  
+                font-size:1.37rem;
+                padding-top:1.5rem;  
               }
         }
       
@@ -50,7 +49,7 @@
                 background-image:url("../images/empty_shape.png");
                 background-repeat: no-repeat;
                 background-position: center;
-                  background-size: contain;
+                background-size: contain;
                   img{
                       margin:auto;
                       padding-top:3em;
@@ -145,7 +144,7 @@
                   
                 img{
                     margin:auto;
-                    padding-top:2.5em;
+                    padding-top:3.5em;
                 }
             }
         }
