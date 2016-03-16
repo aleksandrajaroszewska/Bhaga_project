@@ -13,8 +13,10 @@ body {
     
 }
 
+
 [class*="col-"] {
-    border:1px solid yellow;
+    border:1px solid lightblue;
+    min-height: 1em;
 }
 
 /*

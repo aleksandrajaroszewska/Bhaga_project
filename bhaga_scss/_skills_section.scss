@@ -2,14 +2,85 @@
 
 .skils {
   width:100%;
-  height:820px;
-  position:relative;
-    
-    .row-7 {
+ height:auto;
+    .row {
         width:100%;
         max-width:1200px;
         height:100%;
-        .second, .seven{
+        margin:0 auto;
+        .aboutBox{
+            
+             margin:0 auto;
+            margin-top:3em;
+            padding:1em;
+        
+        .topL {
+        
+            width:100%;
+            height:2em ;   
+                
+        background-image: url(../images/L-shape.png);   
+        background-repeat: no-repeat;
+        background-position:left;
+        transform:rotate(180deg); 
+            }        
+        
+        .botL{
+             
+             width:100%;
+            height:2em ;  
+        background-image: url(../images/L-shape.png);   
+        background-repeat: no-repeat;
+         
+          
+        }
+        
+         p{
+             text-align: center;
+             color:#8D8D8D;
+             font-size:3rem;
+             padding:0.3em;
+               
+             
+              
+               
+            & span{
+                    color:#9E459A;
+                }    
+          
+                 
+          }
+            
+            
+        }
+        
+         .container{
+                width:430px;
+                margin-top:3em;
+               
+                h2{
+                    color:black;
+                    font-size:20px;
+                    font-weight:bold;
+                    font-family:lato, sans-serif;
+                    padding:20px;
+                    span {
+                      float:right;
+                      color:#484848;
+                      font-weight:lighter;
+                    }     
+                }
+                .progress{
+                    width:425px;
+                    height:25px;
+                    .color{
+                      background: #9E459A;
+                      color:  #9E459A;
+                     } 
+                  
+                  }
+            } 
+        /*.second, .seven{
             .container{
                 width:430px;
                 margin-top:400px;
@@ -38,59 +109,9 @@
                   }
             } 
         }
-        .five{
-             .aboutBox{ /*Our skills box*/
-          position:absolute;
-          top:127px;
-          left:465px;
-          width:270px;
-          height:115px;
-           
-            span{
-             font-size:50px;
-             font-weight:bold; 
-             color:#9E459A;
-            }
-           .verRight{
-              margin-top:0.12em;
-              margin-left:5.2em;
-              display: block;
-            }
-            .verLeft{  
-               margin-top:20px;
-               margin-left:-8px;
-               display: block;
-            }    
-            .horRight{ 
-               margin-top:-167px;
-               margin-left:231px;
-               display: block;
-            }   
-            .horLeft{
-              display: block;
-               margin-top:-48px;
-               margin-left:0px;
-            }
-            p{
-             color:#8D8D8D;
-             font-size:47px;
-             display:inline-block;    
-              position:absolute;
-                top:25px;
-                left:38px;
-                & span{
-                    color:#9E459A;
-                }    
-          
-                 
-                 }
-                 
-                 
-                 
-            }
-         }
         
         
+        */
         
     }
 }

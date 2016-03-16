@@ -1,16 +1,114 @@
 
 
 .portfolio {
-  width:100%;
-  height:1500px;
-  position:relative;
+  width:auto;
+  height:100%;
   background-color:#FFFFFF;
     
-    .row-10 {
+    .row {
         width:100%;
         max-width:1200px;
         height:100%;
-        .first, .five, .nine{
+        margin:0 auto;
+        
+        .aboutBox{
+      
+        margin:0 auto;
+        padding:1em;
+        
+        .topL {
+        
+            width:100%;
+            height:2em ;   
+                
+        background-image: url(../images/L-shape.png);   
+        background-repeat: no-repeat;
+        background-position:left;
+        transform:rotate(180deg); 
+            }        
+        
+        .botL{
+             
+             width:100%;
+            height:2em ;  
+        background-image: url(../images/L-shape.png);   
+        background-repeat: no-repeat;
+         
+          
+        }
+        
+         p{
+             text-align: center;
+             color:#8D8D8D;
+             font-size:3rem;
+             padding:0.3em;
+               
+             
+              
+               
+            & span{
+                    color:#9E459A;
+                }    
+          
+                 
+          }
+     }
+        .container{
+               
+            
+                .textBox{
+                    width:270px;
+                    height:100px;
+                    text-align: center;
+                   
+                h2{
+                  font-size:24px;
+                   
+                  }
+                 p{
+                    font-size:17px;
+                    
+                     color:#CDCDCD;
+                    }   
+                }
+            }
+           .rect {
+               width:83px;
+               height:38px;
+               border:1px solid black;
+              
+             
+               border-radius:8px;
+              
+               p{
+                   text-align: center;
+                   font-size:21px;
+                  
+               }
+           }
+         
+        .all{
+            background-color: #9E459A;
+                border-color:#9E459A;
+                color:white;
+          }
+            button{
+                width:228px;
+                height:75px;
+                background-color: #9E459A;
+                border-radius:10px;
+               
+                color:white;
+                font-family:lato, sans-serif;
+                font-size:19px;
+                -moz-box-shadow: -0px -5px 0 0px #6B2E68 inset;
+
+                -webkit-box-shadow: -0px -5px 0 0px   #6B2E68 inset;
+
+                box-shadow: -0px -5px 0 0px #6B2E68 inset;
+            }
+        
+       /* .first, .five, .nine{
             .container{
                 margin-top:350px;
             
@@ -37,7 +135,7 @@
             }
         }
        .five, .six, .seven, .eight {
-             .aboutBox{ /*Our skills box*/
+             .aboutBox{ Our skills box
           position:absolute;
           top:127px;
           left:465px;
@@ -137,7 +235,7 @@
                 width:93px;
             }
         }
-        
+       */ 
         
         
     }

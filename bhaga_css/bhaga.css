@@ -177,259 +177,424 @@
     max-width: 1200px;
     height: 100%; }
     .about .row .aboutBox {
-      padding: 2em;
-      text-align: center; }
+      margin: 0 auto;
+      padding: 1em; }
+      .about .row .aboutBox .topL {
+        width: 100%;
+        height: 2em;
+        background-image: url(../images/L-shape.png);
+        background-repeat: no-repeat;
+        background-position: left;
+        transform: rotate(180deg); }
+      .about .row .aboutBox .botL {
+        width: 100%;
+        height: 2em;
+        background-image: url(../images/L-shape.png);
+        background-repeat: no-repeat; }
       .about .row .aboutBox p {
+        text-align: center;
         color: #8D8D8D;
         font-size: 3rem;
-        text-align: center; }
+        padding: 0.3em; }
         .about .row .aboutBox p span {
           color: #9E459A; }
-    .about .row img {
-      padding: 3em; }
-  .about .row .text p {
-    font-size: 17px;
-    color: #8D8D8D;
-    font-family: lato;
-    line-height: 2em;
-    text-align: center;
-    padding: 2em; }
-  .about .row .text button {
-    width: 228px;
-    height: 75px;
-    background-color: #9E459A;
-    border-radius: 10px;
-    color: white;
-    font-family: lato, sans-serif;
-    font-size: 19px;
-    -moz-box-shadow: -0px -5px 0 0px #6B2E68 inset;
-    -webkit-box-shadow: -0px -5px 0 0px   #6B2E68 inset;
-    box-shadow: -0px -5px 0 0px #6B2E68 inset; }
+    .about .row .mockup img {
+      padding: 2em;
+      margin: 4em 0 4em 0; }
+    .about .row .text {
+      padding: 4em 0 4em 0; }
+      .about .row .text p {
+        font-size: 1.2rem;
+        color: #8D8D8D;
+        font-family: lato;
+        line-height: 2em;
+        text-align: left;
+        padding: 1em; }
+      .about .row .text button {
+        width: 13em;
+        height: 4em;
+        background-color: #9E459A;
+        border-radius: 1em;
+        color: white;
+        font-family: lato, sans-serif;
+        font-size: 1.5rem;
+        -moz-box-shadow: -0px -5px 0 0px #6B2E68 inset;
+        -webkit-box-shadow: -0px -5px 0 0px   #6B2E68 inset;
+        box-shadow: -0px -5px 0 0px #6B2E68 inset; }
 
 .bottom_photo {
   background-image: url("C:/Users/rafalix/Coderslab/projekty/Bhaga/images/section_about_background_image.jpg");
-  background-size: cover;
   background-position: center;
-  height: 39em; }
-
-.bottom_photo {
-  position: relative; }
-  .bottom_photo .row-4 {
-    height: 100%;
+  width: auto; }
+  .bottom_photo .row {
+    margin: 0 auto;
+    height: 12em;
     width: 100%;
     max-width: 1200px; }
-    .bottom_photo .row-4 .third .box3 {
-      height: 4.125em;
-      width: 47.5em;
-      position: absolute;
-      top: 23.75em; }
-      .bottom_photo .row-4 .third .box3 p {
-        color: #FFFFFF;
-        font-size: 48px;
-        font-family: lato;
-        margin-left: 10px;
-        text-align: center; }
-    .bottom_photo .row-4 .six img {
-      position: absolute; }
-      .bottom_photo .row-4 .six img:nth-child(1) {
-        top: 9.375em; }
-      .bottom_photo .row-4 .six img:nth-child(2) {
-        top: 13.125em;
-        left: 35.3125em; }
+    .bottom_photo .row .shape {
+      padding: 3em;
+      margin-top: 1em;
+      background-image: url(../images/empty_shape.png);
+      background-repeat: no-repeat;
+      background-size: contain;
+      background-position: center; }
+      .bottom_photo .row .shape img {
+        margin: auto; }
+    .bottom_photo .row .text {
+      text-align: center;
+      padding: 1em;
+      font-size: 2rem;
+      color: white;
+      font-family: lato; }
 
 .our_team {
-  width: 100%;
-  height: 1120px;
-  position: relative; }
-  .our_team .row-5 {
+  width: auto;
+  height: 100%;
+   /* .row-5{
+        width:100%;
+        max-width:1200px;
+        height:50%;
+      
+        .six,.seven  {
+            img{
+                &:nth-child(1){
+                width:67px;
+                height:72px;
+                position:absolute;
+                top:400px;           
+                }
+               &:nth-child(2){
+                width:17px;
+                height:23px;        
+                margin-top:410px;
+                margin-left:25px;
+                }
+               
+            }
+           
+        }
+        .six{
+            img:nth-child(2){
+                transform:rotate(180deg);
+                margin-left:20px;
+            }
+        }
+    }
+
+    %circle {  
+        width:250px;
+        height:250px;
+        background-color:#CDCDCD;
+        border-radius:50%;
+         margin-top:60px;
+        margin-left:56px;}
+    .row-6{
+          width:100%;
+        max-width:1200px;
+        height:50%;
+        .circle{
+           @extend %circle;
+        }
+        .textBox {
+            width:293px;
+            height:150px;
+            margin-top:60px;
+            margin-left:56px;
+            margin-left:30px;
+            text-align: center;
+            font-family:lato;
+            
+            h2{
+              font-size:23px;
+              color:#484848;
+              margin-top:15px;
+                
+            }
+            h3{
+              font-size:18px;
+               color:#ACACAC;      
+             margin-top:15px;
+                  
+            }
+        
+            img{
+            margin-top:5px;    
+            padding:13px;
+                
+            }
+        }
+    }
+  */ }
+  .our_team .row {
     width: 100%;
-    max-width: 1200px;
-    height: 50%; }
-    .our_team .row-5 .five .aboutBox {
-      /*Our team box*/
-      position: absolute;
-      top: 127px;
-      left: 465px;
-      width: 270px;
-      height: 115px; }
-      .our_team .row-5 .five .aboutBox span {
-        font-size: 50px;
-        font-weight: bold;
-        color: #9E459A; }
-      .our_team .row-5 .five .aboutBox .verRight {
-        margin-top: -0.1em;
-        margin-left: 5.2em;
-        display: block; }
-      .our_team .row-5 .five .aboutBox .verLeft {
-        margin-top: 20px;
-        margin-left: -5px;
-        display: block; }
-      .our_team .row-5 .five .aboutBox .horRight {
-        margin-top: -167px;
-        margin-left: 231px;
-        display: block; }
-      .our_team .row-5 .five .aboutBox .horLeft {
-        display: block;
-        margin-top: -48px;
-        margin-left: 0px; }
-      .our_team .row-5 .five .aboutBox p {
+    margin: 0 auto;
+    width: 100%;
+    max-width: 1200px; }
+    .our_team .row .aboutBox {
+      margin: 0 auto;
+      padding: 1em; }
+      .our_team .row .aboutBox .topL {
+        width: 100%;
+        height: 2em;
+        background-image: url(../images/L-shape.png);
+        background-repeat: no-repeat;
+        background-position: left;
+        transform: rotate(180deg); }
+      .our_team .row .aboutBox .botL {
+        width: 100%;
+        height: 2em;
+        background-image: url(../images/L-shape.png);
+        background-repeat: no-repeat; }
+      .our_team .row .aboutBox p {
+        text-align: center;
         color: #8D8D8D;
-        font-size: 47px;
-        display: inline-block;
-        position: absolute;
-        top: 25px;
-        left: 38px; }
-        .our_team .row-5 .five .aboutBox p span {
+        font-size: 3rem;
+        padding: 0.3em; }
+        .our_team .row .aboutBox p span {
           color: #9E459A; }
-    .our_team .row-5 .six img:nth-child(1), .our_team .row-5 .seven img:nth-child(1) {
-      width: 67px;
-      height: 72px;
-      position: absolute;
-      top: 400px; }
-    .our_team .row-5 .six img:nth-child(2), .our_team .row-5 .seven img:nth-child(2) {
-      width: 17px;
-      height: 23px;
-      margin-top: 410px;
-      margin-left: 25px; }
-    .our_team .row-5 .six img:nth-child(2) {
-      transform: rotate(180deg);
-      margin-left: 20px; }
-  .our_team .row-6 .circle {
-    width: 250px;
-    height: 250px;
-    background-color: #CDCDCD;
-    border-radius: 50%;
-    margin-top: 60px;
-    margin-left: 56px; }
-  .our_team .row-6 {
-    width: 100%;
-    max-width: 1200px;
-    height: 50%; }
-    .our_team .row-6 .textBox {
-      width: 293px;
-      height: 150px;
-      margin-top: 60px;
-      margin-left: 56px;
-      margin-left: 30px;
+    .our_team .row .leftArrow, .our_team .row .rightArrow {
+      height: 5em;
+      margin: auto;
+      margin-top: 6em;
+      background-image: url(../images/small_violet_shape.png);
+      background-repeat: no-repeat;
+      background-size: contain;
+      background-position: center; }
+      .our_team .row .leftArrow img, .our_team .row .rightArrow img {
+        padding: 1.5em;
+        padding-left: 1.5em; }
+    .our_team .row .circle {
+      width: 15em;
+      height: 15em;
+      background-color: #CDCDCD;
+      border-radius: 50%;
+      margin: auto;
+      margin-top: 2em; }
+    .our_team .row .textBox {
+      padding: 3em;
+      padding-bottom: 12em;
+      width: 18.3em;
+      height: 9.3px;
+      margin: auto;
       text-align: center;
       font-family: lato; }
-      .our_team .row-6 .textBox h2 {
+      .our_team .row .textBox h2 {
         font-size: 23px;
         color: #484848;
         margin-top: 15px; }
-      .our_team .row-6 .textBox h3 {
+      .our_team .row .textBox h3 {
         font-size: 18px;
         color: #ACACAC;
         margin-top: 15px; }
-      .our_team .row-6 .textBox img {
+      .our_team .row .textBox img {
         margin-top: 5px;
         padding: 13px; }
 
 .skils {
   width: 100%;
-  height: 820px;
-  position: relative; }
-  .skils .row-7 {
+  height: auto; }
+  .skils .row {
     width: 100%;
     max-width: 1200px;
-    height: 100%; }
-    .skils .row-7 .second .container, .skils .row-7 .seven .container {
+    height: 100%;
+    margin: 0 auto;
+    /*.second, .seven{
+        .container{
+            width:430px;
+            margin-top:400px;
+            margin-left:20px;
+           
+            h2{
+                color:black;
+                font-size:20px;
+                font-weight:bold;
+                font-family:lato, sans-serif;
+                padding:20px;
+                span {
+                  float:right;
+                  color:#484848;
+                  font-weight:lighter;
+                }     
+            }
+            .progress{
+                width:425px;
+                height:25px;
+                .color{
+                  background: #9E459A;
+                  color:  #9E459A;
+                 } 
+              
+              }
+        } 
+    }
+    
+    
+    */ }
+    .skils .row .aboutBox {
+      margin: 0 auto;
+      margin-top: 3em;
+      padding: 1em; }
+      .skils .row .aboutBox .topL {
+        width: 100%;
+        height: 2em;
+        background-image: url(../images/L-shape.png);
+        background-repeat: no-repeat;
+        background-position: left;
+        transform: rotate(180deg); }
+      .skils .row .aboutBox .botL {
+        width: 100%;
+        height: 2em;
+        background-image: url(../images/L-shape.png);
+        background-repeat: no-repeat; }
+      .skils .row .aboutBox p {
+        text-align: center;
+        color: #8D8D8D;
+        font-size: 3rem;
+        padding: 0.3em; }
+        .skils .row .aboutBox p span {
+          color: #9E459A; }
+    .skils .row .container {
       width: 430px;
-      margin-top: 400px;
-      margin-left: 20px; }
-      .skils .row-7 .second .container h2, .skils .row-7 .seven .container h2 {
+      margin-top: 3em; }
+      .skils .row .container h2 {
         color: black;
         font-size: 20px;
         font-weight: bold;
         font-family: lato, sans-serif;
         padding: 20px; }
-        .skils .row-7 .second .container h2 span, .skils .row-7 .seven .container h2 span {
+        .skils .row .container h2 span {
           float: right;
           color: #484848;
           font-weight: lighter; }
-      .skils .row-7 .second .container .progress, .skils .row-7 .seven .container .progress {
+      .skils .row .container .progress {
         width: 425px;
         height: 25px; }
-        .skils .row-7 .second .container .progress .color, .skils .row-7 .seven .container .progress .color {
+        .skils .row .container .progress .color {
           background: #9E459A;
-          color: #9E459A; }
-    .skils .row-7 .five .aboutBox {
-      /*Our skills box*/
-      position: absolute;
-      top: 127px;
-      left: 465px;
-      width: 270px;
-      height: 115px; }
-      .skils .row-7 .five .aboutBox span {
-        font-size: 50px;
-        font-weight: bold;
-        color: #9E459A; }
-      .skils .row-7 .five .aboutBox .verRight {
-        margin-top: 0.12em;
-        margin-left: 5.2em;
-        display: block; }
-      .skils .row-7 .five .aboutBox .verLeft {
-        margin-top: 20px;
-        margin-left: -8px;
-        display: block; }
-      .skils .row-7 .five .aboutBox .horRight {
-        margin-top: -167px;
-        margin-left: 231px;
-        display: block; }
-      .skils .row-7 .five .aboutBox .horLeft {
-        display: block;
-        margin-top: -48px;
-        margin-left: 0px; }
-      .skils .row-7 .five .aboutBox p {
-        color: #8D8D8D;
-        font-size: 47px;
-        display: inline-block;
-        position: absolute;
-        top: 25px;
-        left: 38px; }
-        .skils .row-7 .five .aboutBox p span {
           color: #9E459A; }
 
 .services {
-  width: 100%;
-  height: 910px;
-  position: relative;
+  width: auto;
+  height: 100%;
   background-color: #EEEEEE; }
-  .services .row-9 {
+  .services .row {
     width: 100%;
     max-width: 1200px;
-    height: 100%; }
-    .services .row-9 .second .jumbotron, .services .row-9 .five .jumbotron, .services .row-9 .ten .jumbotron, .services .row-9 .eight .jumbotron {
+    height: 100%;
+    margin: 0 auto;
+  /* .second, .five, .ten, .eight {
+       .jumbotron{
+          
+           width:195px;
+           height:110px;
+           margin-top:150px;
+           margin-left:-45px;
+           text-align: center;
+           font-family:lato, sans-serif;
+           h3{
+               font-size:54px;
+           }
+           p{
+               font-size:16px;
+               padding:10px;
+               color:#ACACAC;
+           }
+       }
+   }
+   
+     .second{
+       .text {
+           margin-top:340px;
+           margin-left:40px;
+           height:220px;
+           width:960px;
+           font-family:lato, sans-serif;
+           color:#484848;
+           text-align: center;
+           h2{
+               text-indent:10px; 
+               font-size:30px;
+           }
+           p{
+               font-size:17px;
+               margin-top:10px;
+               font-weight:bold;
+           }
+           .spanBox{
+               margin-left:-18px;
+           span{
+               
+               box-sizing: border-box;
+               display:inline-block;
+               width:11px;
+               height:11px;
+               border-radius:50%;
+               border:1px solid grey;
+               margin-top:20px;
+               margin-left:-35px;
+                &:nth-child(4){
+                   background-color: #484848;
+               }   
+            }
+              
+          } 
+         }
+   }
+   .five{
+       .jumbotron{
+           margin-left:40px;
+       }
+   }
+   .six{
+       .circle {
+          
+       width:150px;
+       height:150px;
+        background-color:#CDCDCD;
+        border-radius:50%;
+        margin-top:396px;
+        margin-left:110px;
+       }
+   }
+    .eight{
+       .jumbotron{
+           margin-left:10px;
+           }
+     }
+     .ten{
+       .jumbotron{
+           margin-left:75px;
+       }
+   }
+   
+*/ }
+    .services .row .jumbotron {
       width: 195px;
       height: 110px;
-      margin-top: 150px;
-      margin-left: -45px;
       text-align: center;
       font-family: lato, sans-serif; }
-      .services .row-9 .second .jumbotron h3, .services .row-9 .five .jumbotron h3, .services .row-9 .ten .jumbotron h3, .services .row-9 .eight .jumbotron h3 {
+      .services .row .jumbotron h3 {
         font-size: 54px; }
-      .services .row-9 .second .jumbotron p, .services .row-9 .five .jumbotron p, .services .row-9 .ten .jumbotron p, .services .row-9 .eight .jumbotron p {
+      .services .row .jumbotron p {
         font-size: 16px;
         padding: 10px;
         color: #ACACAC; }
-    .services .row-9 .second .text {
-      margin-top: 340px;
-      margin-left: 40px;
+    .services .row .text {
       height: 220px;
       width: 960px;
       font-family: lato, sans-serif;
       color: #484848;
       text-align: center; }
-      .services .row-9 .second .text h2 {
+      .services .row .text h2 {
         text-indent: 10px;
         font-size: 30px; }
-      .services .row-9 .second .text p {
+      .services .row .text p {
         font-size: 17px;
         margin-top: 10px;
         font-weight: bold; }
-      .services .row-9 .second .text .spanBox {
+      .services .row .text .spanBox {
         margin-left: -18px; }
-        .services .row-9 .second .text .spanBox span {
+        .services .row .text .spanBox span {
           box-sizing: border-box;
           display: inline-block;
           width: 11px;
@@ -438,123 +603,213 @@
           border: 1px solid grey;
           margin-top: 20px;
           margin-left: -35px; }
-          .services .row-9 .second .text .spanBox span:nth-child(4) {
+          .services .row .text .spanBox span:nth-child(4) {
             background-color: #484848; }
-    .services .row-9 .five .jumbotron {
-      margin-left: 40px; }
-    .services .row-9 .six .circle {
+    .services .row .circle {
       width: 150px;
       height: 150px;
       background-color: #CDCDCD;
-      border-radius: 50%;
-      margin-top: 396px;
-      margin-left: 110px; }
-    .services .row-9 .eight .jumbotron {
-      margin-left: 10px; }
-    .services .row-9 .ten .jumbotron {
-      margin-left: 75px; }
+      border-radius: 50%; }
 
 .portfolio {
-  width: 100%;
-  height: 1500px;
-  position: relative;
+  width: auto;
+  height: 100%;
   background-color: #FFFFFF; }
-  .portfolio .row-10 {
+  .portfolio .row {
     width: 100%;
     max-width: 1200px;
-    height: 100%; }
-    .portfolio .row-10 .first .container, .portfolio .row-10 .five .container, .portfolio .row-10 .nine .container {
-      margin-top: 350px; }
-      .portfolio .row-10 .first .container .textBox, .portfolio .row-10 .five .container .textBox, .portfolio .row-10 .nine .container .textBox {
-        width: 270px;
-        height: 100px;
+    height: 100%;
+    margin: 0 auto;
+       /* .first, .five, .nine{
+            .container{
+                margin-top:350px;
+            
+                .textBox{
+                    width:270px;
+                    height:100px;
+                    text-align: center;
+                    margin-left:50px;
+                h2{
+                  font-size:24px;
+                    margin-top:15px;
+                  }
+                 p{
+                    font-size:17px;
+                     margin-top:10px;
+                     color:#CDCDCD;
+                    }   
+                }
+            }
+        }
+        .five{
+            .container{
+                margin-top:44px;
+            }
+        }
+       .five, .six, .seven, .eight {
+             .aboutBox{ Our skills box
+          position:absolute;
+          top:127px;
+          left:465px;
+          width:330px;
+          height:115px;
+          
+            span{
+             font-size:40px;
+             color:#9E459A;
+            }
+           .verRight{
+              margin-top:-0.12em;
+              margin-left:8.1em;
+              display: block;
+            }
+            .verLeft{  
+               margin-top:40px;
+               margin-left:-8px;
+               display: block;
+            }    
+            .horRight{ 
+               margin-top:-158px;
+               margin-left:298px;
+               display: block;
+            }   
+            .horLeft{
+              display: block;
+               margin-top:-38px;
+               margin-left:0px;
+            }
+            p{
+             color:#8D8D8D;
+             font-size:37px;
+             display:inline-block;    
+              position:absolute;
+                top:35px;
+                left:38px;
+                & span{
+                    color:#9E459A;
+                }    
+                
+              }
+            }
+           .rect {
+               width:83px;
+               height:38px;
+               border:1px solid black;
+               margin-left:-16px;
+               margin-top:266px;
+               border-radius:8px;
+              
+               p{
+                   text-align: center;
+                   font-size:21px;
+                   margin-top:8px;
+               }
+           }
+         }
+        .five {
+            .rect{
+                background-color: #9E459A;
+                border-color:#9E459A;
+                color:white;
+            }
+        }
+         
+        .six {
+            .rect{
+                margin-left:5px;
+            }
+            button{
+                width:228px;
+                height:75px;
+                background-color: #9E459A;
+                border-radius:10px;
+                margin-top:1000px;
+                color:white;
+                font-family:lato, sans-serif;
+                font-size:19px;
+                -moz-box-shadow: -0px -5px 0 0px #6B2E68 inset;
+
+                -webkit-box-shadow: -0px -5px 0 0px   #6B2E68 inset;
+
+                box-shadow: -0px -5px 0 0px #6B2E68 inset;
+            }
+        }
+        .seven {
+            .rect{
+                margin-left:15px;
+            }
+            
+        }
+        
+        .eight {
+            .rect{
+               margin-left:30px;
+                width:93px;
+            }
+        }
+       */ }
+    .portfolio .row .aboutBox {
+      margin: 0 auto;
+      padding: 1em; }
+      .portfolio .row .aboutBox .topL {
+        width: 100%;
+        height: 2em;
+        background-image: url(../images/L-shape.png);
+        background-repeat: no-repeat;
+        background-position: left;
+        transform: rotate(180deg); }
+      .portfolio .row .aboutBox .botL {
+        width: 100%;
+        height: 2em;
+        background-image: url(../images/L-shape.png);
+        background-repeat: no-repeat; }
+      .portfolio .row .aboutBox p {
         text-align: center;
-        margin-left: 50px; }
-        .portfolio .row-10 .first .container .textBox h2, .portfolio .row-10 .five .container .textBox h2, .portfolio .row-10 .nine .container .textBox h2 {
-          font-size: 24px;
-          margin-top: 15px; }
-        .portfolio .row-10 .first .container .textBox p, .portfolio .row-10 .five .container .textBox p, .portfolio .row-10 .nine .container .textBox p {
-          font-size: 17px;
-          margin-top: 10px;
-          color: #CDCDCD; }
-    .portfolio .row-10 .five .container {
-      margin-top: 44px; }
-    .portfolio .row-10 .five .aboutBox, .portfolio .row-10 .six .aboutBox, .portfolio .row-10 .seven .aboutBox, .portfolio .row-10 .eight .aboutBox {
-      /*Our skills box*/
-      position: absolute;
-      top: 127px;
-      left: 465px;
-      width: 330px;
-      height: 115px; }
-      .portfolio .row-10 .five .aboutBox span, .portfolio .row-10 .six .aboutBox span, .portfolio .row-10 .seven .aboutBox span, .portfolio .row-10 .eight .aboutBox span {
-        font-size: 40px;
-        color: #9E459A; }
-      .portfolio .row-10 .five .aboutBox .verRight, .portfolio .row-10 .six .aboutBox .verRight, .portfolio .row-10 .seven .aboutBox .verRight, .portfolio .row-10 .eight .aboutBox .verRight {
-        margin-top: -0.12em;
-        margin-left: 8.1em;
-        display: block; }
-      .portfolio .row-10 .five .aboutBox .verLeft, .portfolio .row-10 .six .aboutBox .verLeft, .portfolio .row-10 .seven .aboutBox .verLeft, .portfolio .row-10 .eight .aboutBox .verLeft {
-        margin-top: 40px;
-        margin-left: -8px;
-        display: block; }
-      .portfolio .row-10 .five .aboutBox .horRight, .portfolio .row-10 .six .aboutBox .horRight, .portfolio .row-10 .seven .aboutBox .horRight, .portfolio .row-10 .eight .aboutBox .horRight {
-        margin-top: -158px;
-        margin-left: 298px;
-        display: block; }
-      .portfolio .row-10 .five .aboutBox .horLeft, .portfolio .row-10 .six .aboutBox .horLeft, .portfolio .row-10 .seven .aboutBox .horLeft, .portfolio .row-10 .eight .aboutBox .horLeft {
-        display: block;
-        margin-top: -38px;
-        margin-left: 0px; }
-      .portfolio .row-10 .five .aboutBox p, .portfolio .row-10 .six .aboutBox p, .portfolio .row-10 .seven .aboutBox p, .portfolio .row-10 .eight .aboutBox p {
         color: #8D8D8D;
-        font-size: 37px;
-        display: inline-block;
-        position: absolute;
-        top: 35px;
-        left: 38px; }
-        .portfolio .row-10 .five .aboutBox p span, .portfolio .row-10 .six .aboutBox p span, .portfolio .row-10 .seven .aboutBox p span, .portfolio .row-10 .eight .aboutBox p span {
+        font-size: 3rem;
+        padding: 0.3em; }
+        .portfolio .row .aboutBox p span {
           color: #9E459A; }
-    .portfolio .row-10 .five .rect, .portfolio .row-10 .six .rect, .portfolio .row-10 .seven .rect, .portfolio .row-10 .eight .rect {
+    .portfolio .row .container .textBox {
+      width: 270px;
+      height: 100px;
+      text-align: center; }
+      .portfolio .row .container .textBox h2 {
+        font-size: 24px; }
+      .portfolio .row .container .textBox p {
+        font-size: 17px;
+        color: #CDCDCD; }
+    .portfolio .row .rect {
       width: 83px;
       height: 38px;
       border: 1px solid black;
-      margin-left: -16px;
-      margin-top: 266px;
       border-radius: 8px; }
-      .portfolio .row-10 .five .rect p, .portfolio .row-10 .six .rect p, .portfolio .row-10 .seven .rect p, .portfolio .row-10 .eight .rect p {
+      .portfolio .row .rect p {
         text-align: center;
-        font-size: 21px;
-        margin-top: 8px; }
-    .portfolio .row-10 .five .rect {
+        font-size: 21px; }
+    .portfolio .row .all {
       background-color: #9E459A;
       border-color: #9E459A;
       color: white; }
-    .portfolio .row-10 .six .rect {
-      margin-left: 5px; }
-    .portfolio .row-10 .six button {
+    .portfolio .row button {
       width: 228px;
       height: 75px;
       background-color: #9E459A;
       border-radius: 10px;
-      margin-top: 1000px;
       color: white;
       font-family: lato, sans-serif;
       font-size: 19px;
       -moz-box-shadow: -0px -5px 0 0px #6B2E68 inset;
       -webkit-box-shadow: -0px -5px 0 0px   #6B2E68 inset;
       box-shadow: -0px -5px 0 0px #6B2E68 inset; }
-    .portfolio .row-10 .seven .rect {
-      margin-left: 15px; }
-    .portfolio .row-10 .eight .rect {
-      margin-left: 30px;
-      width: 93px; }
 
 body {
   font-family: lato, sans-serif;
   box-sizing: border-box; }
 
 [class*="col-"] {
-  border: 1px solid yellow; }
+  border: 1px solid lightblue;
+  min-height: 1em; }
 
 /*
 .row:before,

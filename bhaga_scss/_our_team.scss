@@ -1,58 +1,115 @@
 .our_team{
-    width:100%;
-    height:1120px;
-    position:relative;
-    .row-5{
+    width:auto;
+    height:100%;
+    
+        .row{ 
+        width:100%;    
+        margin:0 auto;
         width:100%;
         max-width:1200px;
-        height:50%;
-        .five{        
-        .aboutBox{ /*Our team box*/
-          position:absolute;
-         top:127px;
-          left:465px;
-          width:270px;
-          height:115px;
-           
-            span{
-             font-size:50px;
-             font-weight:bold; 
-             color:#9E459A;
-            }
-          .verRight{
-              margin-top:-0.1em;
-              margin-left:5.2em;
-              display: block;
-            }
-            .verLeft{  
-               margin-top:20px;
-               margin-left:-5px;
-               display: block;
-            }    
-            .horRight{ 
-               margin-top:-167px;
-               margin-left:231px;
-               display: block;
-            }   
-            .horLeft{
-              display: block;
-               margin-top:-48px;
-               margin-left:0px;
-            }
-            p{
-             color:#8D8D8D;
-             font-size:47px;
-             display:inline-block;    
-              position:absolute;
-                top:25px;
-                left:38px;
+            
+             .aboutBox{
+      
+             margin:0 auto;
+             padding:1em;
+        
+                .topL {
+        
+                   width:100%;
+                     height:2em ;   
+                
+                   background-image: url(../images/L-shape.png);   
+                   background-repeat: no-repeat;
+                   background-position:left;
+                    transform:rotate(180deg); 
+                    }        
+                  .botL{
+              
+                      width:100%;
+                      height:2em ;  
+                     background-image: url(../images/L-shape.png);   
+                      background-repeat: no-repeat;
+          
+                      }
+        
+                 p{
+               text-align: center;
+                color:#8D8D8D;
+               font-size:3rem;
+                padding:0.3em;
+              
                 & span{
                     color:#9E459A;
                 }    
+          
+                 
+                    }
+             }
+            
+            .leftArrow, .rightArrow{
+                height:5em;
+                margin: auto;
+                margin-top:6em;
+                background-image: url(../images/small_violet_shape.png);
+                background-repeat:no-repeat;
+                background-size:contain;
+                background-position: center;
+                img{
+                    padding:1.5em;
+                    padding-left:1.5em;
+                      
+                }
+                 
+            }
+            
+            .circle{
+                width:15em;
+                height:15em;
+                background-color:#CDCDCD;
+               border-radius:50%;
+               margin:auto;
+               margin-top:2em;
                 
             }
-          }
-         }
+            
+            .textBox{
+             
+            padding:3em;
+            padding-bottom:12em;    
+            width:18.3em;
+            height:9.3px;
+            margin:auto;
+            text-align: center;
+            font-family:lato;
+            
+            h2{
+              font-size:23px;
+              color:#484848;
+              margin-top:15px;
+                
+            }
+            h3{
+              font-size:18px;
+               color:#ACACAC;      
+             margin-top:15px;
+                  
+            }
+        
+            img{
+            margin-top:5px;    
+            padding:13px;
+                
+            }
+                
+                
+            }
+            
+            }
+   /* .row-5{
+        width:100%;
+        max-width:1200px;
+        height:50%;
+      
         .six,.seven  {
             img{
                 &:nth-child(1){
@@ -78,6 +135,7 @@
             }
         }
     }
+
     %circle {  
         width:250px;
         height:250px;
@@ -121,5 +179,5 @@
             }
         }
     }
-    
+  */ 
 }
