@@ -48,23 +48,21 @@
             
             .leftArrow, .rightArrow{
                 height:5em;
-                margin: auto;
-                margin-top:6em;
                 background-image: url(../images/small_violet_shape.png);
                 background-repeat:no-repeat;
                 background-size:contain;
                 background-position: center;
                 img{
-                    padding:1.5em;
-                    padding-left:1.5em;
-                      
+                   
+                   margin:auto;
+                   padding-top:1.5em;   
                 }
                  
             }
             
             .circle{
-                width:15em;
-                height:15em;
+                width:9em;
+                height:9em;
                 background-color:#CDCDCD;
                border-radius:50%;
                margin:auto;
@@ -75,29 +73,29 @@
             .textBox{
              
             padding:3em;
-            padding-bottom:12em;    
-            width:18.3em;
-            height:9.3px;
+            padding-bottom:8em;    
+            
             margin:auto;
             text-align: center;
             font-family:lato;
             
             h2{
-              font-size:23px;
+              font-size:1.5rem;
               color:#484848;
-              margin-top:15px;
+              margin-top:1em;
                 
             }
             h3{
-              font-size:18px;
+              font-size:1rem;
                color:#ACACAC;      
-             margin-top:15px;
+             margin-top:1em;
+                padding:1em;
                   
             }
         
             img{
-            margin-top:5px;    
-            padding:13px;
+            margin:auto;    
+            padding:1em;
                 
             }
                 
@@ -105,79 +103,5 @@
             }
             
             }
-   /* .row-5{
-        width:100%;
-        max-width:1200px;
-        height:50%;
-      
-        .six,.seven  {
-            img{
-                &:nth-child(1){
-                width:67px;
-                height:72px;
-                position:absolute;
-                top:400px;           
-                }
-               &:nth-child(2){
-                width:17px;
-                height:23px;        
-                margin-top:410px;
-                margin-left:25px;
-                }
-               
-            }
-           
-        }
-        .six{
-            img:nth-child(2){
-                transform:rotate(180deg);
-                margin-left:20px;
-            }
-        }
-    }
-
-    %circle {  
-        width:250px;
-        height:250px;
-        background-color:#CDCDCD;
-        border-radius:50%;
-         margin-top:60px;
-        margin-left:56px;}
-    .row-6{
-          width:100%;
-        max-width:1200px;
-        height:50%;
-        .circle{
-           @extend %circle;
-        }
-        .textBox {
-            width:293px;
-            height:150px;
-            margin-top:60px;
-            margin-left:56px;
-            margin-left:30px;
-            text-align: center;
-            font-family:lato;
-            
-            h2{
-              font-size:23px;
-              color:#484848;
-              margin-top:15px;
-                
-            }
-            h3{
-              font-size:18px;
-               color:#ACACAC;      
-             margin-top:15px;
-                  
-            }
-        
-            img{
-            margin-top:5px;    
-            padding:13px;
-                
-            }
-        }
-    }
-  */ 
+   
 }

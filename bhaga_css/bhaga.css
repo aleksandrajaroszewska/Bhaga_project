@@ -228,12 +228,11 @@
   width: auto; }
   .bottom_photo .row {
     margin: 0 auto;
-    height: 12em;
     width: 100%;
     max-width: 1200px; }
     .bottom_photo .row .shape {
       padding: 3em;
-      margin-top: 1em;
+      margin-top: 2em;
       background-image: url(../images/empty_shape.png);
       background-repeat: no-repeat;
       background-size: contain;
@@ -243,88 +242,14 @@
     .bottom_photo .row .text {
       text-align: center;
       padding: 1em;
+      margin-bottom: 1em;
       font-size: 2rem;
       color: white;
       font-family: lato; }
 
 .our_team {
   width: auto;
-  height: 100%;
-   /* .row-5{
-        width:100%;
-        max-width:1200px;
-        height:50%;
-      
-        .six,.seven  {
-            img{
-                &:nth-child(1){
-                width:67px;
-                height:72px;
-                position:absolute;
-                top:400px;           
-                }
-               &:nth-child(2){
-                width:17px;
-                height:23px;        
-                margin-top:410px;
-                margin-left:25px;
-                }
-               
-            }
-           
-        }
-        .six{
-            img:nth-child(2){
-                transform:rotate(180deg);
-                margin-left:20px;
-            }
-        }
-    }
-
-    %circle {  
-        width:250px;
-        height:250px;
-        background-color:#CDCDCD;
-        border-radius:50%;
-         margin-top:60px;
-        margin-left:56px;}
-    .row-6{
-          width:100%;
-        max-width:1200px;
-        height:50%;
-        .circle{
-           @extend %circle;
-        }
-        .textBox {
-            width:293px;
-            height:150px;
-            margin-top:60px;
-            margin-left:56px;
-            margin-left:30px;
-            text-align: center;
-            font-family:lato;
-            
-            h2{
-              font-size:23px;
-              color:#484848;
-              margin-top:15px;
-                
-            }
-            h3{
-              font-size:18px;
-               color:#ACACAC;      
-             margin-top:15px;
-                  
-            }
-        
-            img{
-            margin-top:5px;    
-            padding:13px;
-                
-            }
-        }
-    }
-  */ }
+  height: 100%; }
   .our_team .row {
     width: 100%;
     margin: 0 auto;
@@ -354,41 +279,38 @@
           color: #9E459A; }
     .our_team .row .leftArrow, .our_team .row .rightArrow {
       height: 5em;
-      margin: auto;
-      margin-top: 6em;
       background-image: url(../images/small_violet_shape.png);
       background-repeat: no-repeat;
       background-size: contain;
       background-position: center; }
       .our_team .row .leftArrow img, .our_team .row .rightArrow img {
-        padding: 1.5em;
-        padding-left: 1.5em; }
+        margin: auto;
+        padding-top: 1.5em; }
     .our_team .row .circle {
-      width: 15em;
-      height: 15em;
+      width: 9em;
+      height: 9em;
       background-color: #CDCDCD;
       border-radius: 50%;
       margin: auto;
       margin-top: 2em; }
     .our_team .row .textBox {
       padding: 3em;
-      padding-bottom: 12em;
-      width: 18.3em;
-      height: 9.3px;
+      padding-bottom: 8em;
       margin: auto;
       text-align: center;
       font-family: lato; }
       .our_team .row .textBox h2 {
-        font-size: 23px;
+        font-size: 1.5rem;
         color: #484848;
-        margin-top: 15px; }
+        margin-top: 1em; }
       .our_team .row .textBox h3 {
-        font-size: 18px;
+        font-size: 1rem;
         color: #ACACAC;
-        margin-top: 15px; }
+        margin-top: 1em;
+        padding: 1em; }
       .our_team .row .textBox img {
-        margin-top: 5px;
-        padding: 13px; }
+        margin: auto;
+        padding: 1em; }
 
 .skils {
   width: 100%;
@@ -397,39 +319,7 @@
     width: 100%;
     max-width: 1200px;
     height: 100%;
-    margin: 0 auto;
-    /*.second, .seven{
-        .container{
-            width:430px;
-            margin-top:400px;
-            margin-left:20px;
-           
-            h2{
-                color:black;
-                font-size:20px;
-                font-weight:bold;
-                font-family:lato, sans-serif;
-                padding:20px;
-                span {
-                  float:right;
-                  color:#484848;
-                  font-weight:lighter;
-                }     
-            }
-            .progress{
-                width:425px;
-                height:25px;
-                .color{
-                  background: #9E459A;
-                  color:  #9E459A;
-                 } 
-              
-              }
-        } 
-    }
-    
-    
-    */ }
+    margin: 0 auto; }
     .skils .row .aboutBox {
       margin: 0 auto;
       margin-top: 3em;
@@ -454,21 +344,20 @@
         .skils .row .aboutBox p span {
           color: #9E459A; }
     .skils .row .container {
-      width: 430px;
-      margin-top: 3em; }
+      width: 23em;
+      margin: auto;
+      padding: 2em; }
       .skils .row .container h2 {
         color: black;
-        font-size: 20px;
+        font-size: 1.5rem;
         font-weight: bold;
         font-family: lato, sans-serif;
-        padding: 20px; }
+        padding: 1.3em; }
         .skils .row .container h2 span {
-          float: right;
           color: #484848;
           font-weight: lighter; }
       .skils .row .container .progress {
-        width: 425px;
-        height: 25px; }
+        height: 1.5em; }
         .skils .row .container .progress .color {
           background: #9E459A;
           color: #9E459A; }
@@ -804,6 +693,7 @@
       box-shadow: -0px -5px 0 0px #6B2E68 inset; }
 
 body {
+  height: 100%;
   font-family: lato, sans-serif;
   box-sizing: border-box; }
 

@@ -8,6 +8,7 @@
         max-width:1200px;
         height:100%;
         margin:0 auto;
+        
         .aboutBox{
             
              margin:0 auto;
@@ -55,24 +56,25 @@
         }
         
          .container{
-                width:430px;
-                margin-top:3em;
+               width:23em;
+               margin:auto;
+               padding:2em;
                
                 h2{
                     color:black;
-                    font-size:20px;
+                    font-size:1.5rem;
                     font-weight:bold;
                     font-family:lato, sans-serif;
-                    padding:20px;
+                    padding:1.3em;
                     span {
-                      float:right;
+                     
                       color:#484848;
                       font-weight:lighter;
                     }     
                 }
                 .progress{
-                    width:425px;
-                    height:25px;
+                   
+                    height:1.5em;
                     .color{
                       background: #9E459A;
                       color:  #9E459A;
@@ -80,38 +82,8 @@
                   
                   }
             } 
-        /*.second, .seven{
-            .container{
-                width:430px;
-                margin-top:400px;
-                margin-left:20px;
-               
-                h2{
-                    color:black;
-                    font-size:20px;
-                    font-weight:bold;
-                    font-family:lato, sans-serif;
-                    padding:20px;
-                    span {
-                      float:right;
-                      color:#484848;
-                      font-weight:lighter;
-                    }     
-                }
-                .progress{
-                    width:425px;
-                    height:25px;
-                    .color{
-                      background: #9E459A;
-                      color:  #9E459A;
-                     } 
-                  
-                  }
-            } 
-        }
         
-        
-        */
         
     }
 }
+
