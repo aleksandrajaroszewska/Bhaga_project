@@ -11,17 +11,20 @@
         height:100%;
         margin:0 auto;
         
-        .jumbotron{
-                width:195px;
-                height:110px;
+        .digit {
+            
+                margin-top:6em;
+                margin-bottom:6em;
                 text-align: center;
                 font-family:lato, sans-serif;
+                
                 h3{
-                    font-size:54px;
+                    font-size:4rem;
+                    
                 }
                 p{
-                    font-size:16px;
-                    padding:10px;
+                    font-size:1.2rem;
+                    padding:2em;
                     color:#ACACAC;
                 }
             }
@@ -29,32 +32,32 @@
           .text {
                 
                
-                height:220px;
-                width:960px;
+              
                 font-family:lato, sans-serif;
                 color:#484848;
                 text-align: center;
+                 padding:1em;
                 h2{
-                    text-indent:10px; 
-                    font-size:30px;
+                   
+                    font-size:2rem;
                 }
                 p{
-                    font-size:17px;
-                    margin-top:10px;
+                    font-size:1rem;
+                    margin-top:1em;
                     font-weight:bold;
+                    padding:1em;
                 }
+              
                 .spanBox{
-                    margin-left:-18px;
+                   
+                    padding:2em;
                 span{
-                    
-                    box-sizing: border-box;
                     display:inline-block;
-                    width:11px;
-                    height:11px;
+                    padding:0.3em;
+                    margin-left:1em;
                     border-radius:50%;
-                    border:1px solid grey;
-                    margin-top:20px;
-                    margin-left:-35px;
+                    border:0.1em solid grey;
+                   
                      &:nth-child(4){
                         background-color: #484848;
                     }   
@@ -63,99 +66,16 @@
                } 
               }
          .circle {
-               
-            width:150px;
-            height:150px;
+            margin:auto; 
+            margin-top:5em;
+            margin-bottom:5em;
+            width:10em;
+            height:10em;
              background-color:#CDCDCD;
              border-radius:50%;
             
             }
-       /* .second, .five, .ten, .eight {
-            .jumbotron{
-               
-                width:195px;
-                height:110px;
-                margin-top:150px;
-                margin-left:-45px;
-                text-align: center;
-                font-family:lato, sans-serif;
-                h3{
-                    font-size:54px;
-                }
-                p{
-                    font-size:16px;
-                    padding:10px;
-                    color:#ACACAC;
-                }
-            }
-        }
-        
-          .second{
-            .text {
-                margin-top:340px;
-                margin-left:40px;
-                height:220px;
-                width:960px;
-                font-family:lato, sans-serif;
-                color:#484848;
-                text-align: center;
-                h2{
-                    text-indent:10px; 
-                    font-size:30px;
-                }
-                p{
-                    font-size:17px;
-                    margin-top:10px;
-                    font-weight:bold;
-                }
-                .spanBox{
-                    margin-left:-18px;
-                span{
-                    
-                    box-sizing: border-box;
-                    display:inline-block;
-                    width:11px;
-                    height:11px;
-                    border-radius:50%;
-                    border:1px solid grey;
-                    margin-top:20px;
-                    margin-left:-35px;
-                     &:nth-child(4){
-                        background-color: #484848;
-                    }   
-                 }
-                   
-               } 
-              }
-        }
-        .five{
-            .jumbotron{
-                margin-left:40px;
-            }
-        }
-        .six{
-            .circle {
-               
-            width:150px;
-            height:150px;
-             background-color:#CDCDCD;
-             border-radius:50%;
-             margin-top:396px;
-             margin-left:110px;
-            }
-        }
-         .eight{
-            .jumbotron{
-                margin-left:10px;
-                }
-          }
-          .ten{
-            .jumbotron{
-                margin-left:75px;
-            }
-        }
-        
-     */   
+      
         
   }
 }

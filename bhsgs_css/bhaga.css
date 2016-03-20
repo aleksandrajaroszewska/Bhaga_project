@@ -372,44 +372,45 @@
     height: 100%;
     margin: 0 auto; }
     .services .row .digit {
-      margin-top: 6em;
-      margin-bottom: 6em;
+      margin-top: 3em;
+      margin-bottom: 3em;
       text-align: center;
-      font-family: lato, sans-serif; }
+      font-family: lato, sans-serif;
+      border: 1px solid red; }
       .services .row .digit h3 {
-        font-size: 4rem; }
+        font-size: 15rem;
+        color: red; }
       .services .row .digit p {
-        font-size: 1.2rem;
-        padding: 2em;
+        font-size: 1rem;
+        padding: 1em;
         color: #ACACAC; }
     .services .row .text {
       font-family: lato, sans-serif;
       color: #484848;
-      text-align: center;
-      padding: 1em; }
+      text-align: center; }
       .services .row .text h2 {
-        font-size: 2rem; }
+        text-indent: 10px;
+        font-size: 30px; }
       .services .row .text p {
-        font-size: 1rem;
-        margin-top: 1em;
-        font-weight: bold;
-        padding: 1em; }
+        font-size: 17px;
+        margin-top: 10px;
+        font-weight: bold; }
       .services .row .text .spanBox {
-        padding: 2em; }
+        margin-left: -18px; }
         .services .row .text .spanBox span {
+          box-sizing: border-box;
           display: inline-block;
-          padding: 0.3em;
-          margin-left: 1em;
+          width: 11px;
+          height: 11px;
           border-radius: 50%;
-          border: 0.1em solid grey; }
+          border: 1px solid grey;
+          margin-top: 20px;
+          margin-left: -35px; }
           .services .row .text .spanBox span:nth-child(4) {
             background-color: #484848; }
     .services .row .circle {
-      margin: auto;
-      margin-top: 5em;
-      margin-bottom: 5em;
-      width: 10em;
-      height: 10em;
+      width: 15em;
+      height: 15em;
       background-color: #CDCDCD;
       border-radius: 50%; }
 
@@ -572,44 +573,35 @@
         padding: 0.3em; }
         .portfolio .row .aboutBox p span {
           color: #9E459A; }
+    .portfolio .row .container .textBox {
+      width: 270px;
+      height: 100px;
+      text-align: center; }
+      .portfolio .row .container .textBox h2 {
+        font-size: 24px; }
+      .portfolio .row .container .textBox p {
+        font-size: 17px;
+        color: #CDCDCD; }
     .portfolio .row .rect {
-      box-sizing: border-box;
+      width: 83px;
+      height: 38px;
       border: 1px solid black;
-      padding: 0.7em;
-      width: 5em;
-      border-radius: 8px;
-      margin-left: -0.5em;
-      margin-top: 2em;
-      margin-bottom: 2em; }
+      border-radius: 8px; }
       .portfolio .row .rect p {
         text-align: center;
-        font-size: 1.3rem; }
+        font-size: 21px; }
     .portfolio .row .all {
       background-color: #9E459A;
       border-color: #9E459A;
       color: white; }
-    .portfolio .row img {
-      width: 21em;
-      height: 21em;
-      margin: 0 auto; }
-    .portfolio .row .textBox {
-      padding: 1em;
-      margin: auto;
-      text-align: center; }
-      .portfolio .row .textBox h2 {
-        font-size: 1.5rem; }
-      .portfolio .row .textBox p {
-        font-size: 1rem;
-        color: #CDCDCD; }
     .portfolio .row button {
-      width: 9em;
-      height: 3em;
-      margin: auto;
+      width: 228px;
+      height: 75px;
       background-color: #9E459A;
-      border-radius: 0.3em;
+      border-radius: 10px;
       color: white;
       font-family: lato, sans-serif;
-      font-size: 1.2rem;
+      font-size: 19px;
       -moz-box-shadow: -0px -5px 0 0px #6B2E68 inset;
       -webkit-box-shadow: -0px -5px 0 0px   #6B2E68 inset;
       box-shadow: -0px -5px 0 0px #6B2E68 inset; }

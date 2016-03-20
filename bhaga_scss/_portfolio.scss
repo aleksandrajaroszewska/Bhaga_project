@@ -51,56 +51,68 @@
                 }    
           
                  
-          }
-     }
-        .container{
+            }
+       }
+        
                
             
-                .textBox{
-                    width:270px;
-                    height:100px;
-                    text-align: center;
-                   
-                h2{
-                  font-size:24px;
-                   
-                  }
-                 p{
-                    font-size:17px;
-                    
-                     color:#CDCDCD;
-                    }   
-                }
-            }
-           .rect {
-               width:83px;
-               height:38px;
+               
+            
+      .rect {
+               box-sizing:border-box;
                border:1px solid black;
-              
-             
+               padding:0.7em;
+               width:5em;
                border-radius:8px;
+               margin-left:-0.5em;
+               margin-top:2em;
+               margin-bottom:2em;
               
                p{
                    text-align: center;
-                   font-size:21px;
+                   font-size:1.3rem;
                   
                }
            }
          
-        .all{
+    .all{
             background-color: #9E459A;
                 border-color:#9E459A;
                 color:white;
           }
-            button{
-                width:228px;
-                height:75px;
+        img{
+            width:21em;
+            height:21em;
+            margin:0 auto;
+        }
+     .textBox{
+                    padding:1em;
+                    margin:auto;
+                    text-align:center;
+                   
+                h2{
+                  font-size:1.5rem;
+                   
+                  }
+                 p{
+                    font-size:1rem;
+                    
+                     color:#CDCDCD;
+                    }   
+                }
+        
+     button{
+         
+                width:9em;
+                height:3em;
+                margin:auto;
+                
                 background-color: #9E459A;
-                border-radius:10px;
+                border-radius:0.3em;
                
                 color:white;
                 font-family:lato, sans-serif;
-                font-size:19px;
+                font-size:1.2rem;
                 -moz-box-shadow: -0px -5px 0 0px #6B2E68 inset;
 
                 -webkit-box-shadow: -0px -5px 0 0px   #6B2E68 inset;
