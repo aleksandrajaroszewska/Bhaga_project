@@ -1,4 +1,5 @@
 
+
 .main {
    background-image: url("../images/main_picture-1.jpg");
    width: auto;
@@ -8,13 +9,15 @@
         height:50%;
         width:100%;
         max-width:1200px;
-        box-sizing: border-box;
+       
         
     }
     
     .mainTop {
         
-        .top {           
+        .top {
+            margin:auto;
+            margin-bottom:2em;
             text-align: center;
             padding-top:5em;
             color:white;

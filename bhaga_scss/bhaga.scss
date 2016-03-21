@@ -5,6 +5,7 @@
 @import "skills_section";
 @import "services_section";
 @import "portfolio";
+@import "form_section";
 
 body {
     height:100%;
@@ -15,9 +16,14 @@ body {
 
 
 [class*="col-"] {
-    border:1px solid lightblue;
+   
     min-height: 1em;
 }
+
+
+
+    
+   
 
 /*
 .row:before,

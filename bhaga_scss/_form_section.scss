@@ -1,0 +1,153 @@
+.form{ 
+    width:auto;
+    height:100%;
+    
+    .row{
+        margin:0 auto;
+        width:100%;
+        max-width:1200px;
+       
+    .aboutBox {
+      
+        margin:0 auto;
+        margin-bottom:2em;
+        padding:1em;
+        
+        .topL {
+        
+            width:100%;
+            height:2em ;   
+                
+        background-image: url(../images/L-shape.png);   
+        background-repeat: no-repeat;
+        background-position:left;
+        transform:rotate(180deg); 
+            }        
+        
+        .botL{
+             
+             width:100%;
+            height:2em ;  
+        background-image: url(../images/L-shape.png);   
+        background-repeat: no-repeat;
+         
+          
+        }
+        
+         p{
+             text-align: center;
+             color:#8D8D8D;
+             font-size:3rem;
+             padding:0.3em;
+               
+             
+              
+               
+            & span{
+                    color:#9E459A;
+                }    
+          
+                 
+          }
+     }
+        
+        .form-group{
+            padding:1em;
+            margin-top:1em;
+        }
+           
+           
+            .form-control {
+                
+                color:black;
+                font-size:1.3rem;
+                padding:2em;
+                border:1px solid #878787;
+            }
+        
+        ::-webkit-input-placeholder {
+       color: black;
+        }
+
+       :-moz-placeholder { /* Firefox 18- */
+       color: black;  
+       }
+
+       ::-moz-placeholder {  /* Firefox 19+ */
+        color: black;  
+       }
+
+     :-ms-input-placeholder {  
+      color: black;  
+     }
+         button{
+         
+                width:9em;
+                height:3em;
+                margin:auto;
+                margin-left:0.5em;
+                
+                background-color: #9E459A;
+                border-radius:0.3em;
+               
+                color:white;
+                font-family:lato, sans-serif;
+                font-size:1.2rem;
+                -moz-box-shadow: -0px -5px 0 0px #6B2E68 inset;
+
+                -webkit-box-shadow: -0px -5px 0 0px   #6B2E68 inset;
+
+                box-shadow: -0px -5px 0 0px #6B2E68 inset;
+            }
+        
+        .text{
+            p:nth-child(1){
+                text-align:left;
+                font-size:1.3rem;
+                padding:1.5em;
+               
+                line-height: 1.3em;
+            }
+            p:nth-child(2),  p:nth-child(3){
+                text-align:left;
+                font-size:1.4rem;
+                padding:1.5em;
+                font-weight: 900;
+                line-height: 1.3em;
+            }
+             img{
+            width:4em;
+            height:4em;
+                 margin:0.5em;
+                 margin-left:2em;
+        }
+        }
+    }
+    
+}
+
+ .foot {
+     
+    width:auto;
+    height:100%;
+     padding:2em;
+     .row{
+        
+       margin:auto;
+        width:100%;
+        max-width:1200px;
+         .box{
+           
+           
+             padding:2em;
+        img{
+             margin:0 auto;
+           
+            width:18em;
+           
+        }
+      }
+    }
+    
+}
+    
