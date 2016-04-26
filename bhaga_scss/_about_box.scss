@@ -1,0 +1,30 @@
+.aboutBox{
+        margin:0 auto;
+        padding:1em;
+       
+        .topL {
+            width:100%;
+            height:2em ;        
+            background-image: url(../images/L-shape.png);   
+            background-repeat: no-repeat;
+            background-position:left;
+            transform:rotate(180deg); 
+            }        
+        .botL{
+             width:100%;
+            height:2em ;  
+            background-image: url(../images/L-shape.png);   
+              background-repeat: no-repeat;  
+          }
+         p{
+             text-align: center;
+             color:#8D8D8D;
+             font-size:3rem;
+             padding:0.3em;   
+          & span{
+             color:#9E459A;
+                }    
+               
+          }
+     }
+    

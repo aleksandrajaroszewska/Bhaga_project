@@ -1,143 +1,98 @@
 .nav_section {
   width:auto;
-    
-nav{//pasek z nawigacją
-   width:100%; 
-   height:10%;
-   font-family:lato;
-    color:#8D8D8D;
-    font-size:1rem;
-   
-  .row{
-       margin:0 auto;
-        height:100%;
-        width:100%;
-        max-width:1200px;
-        border:1px solid white;
-        box-sizing: border-box;
-        color:#8D8D8D;
+    nav{ //pasek z nawigacją
+       width:100%; 
+       height:10%;
+       font-family:lato;
+       color:#8D8D8D;
+       font-size:1rem;
+       z-index: 10;
+       .row{
+         @extend %row_position;
+          color:#8D8D8D;
       
-        [class*="col-"] {
-      padding-top:2em;
-      padding-left:-2em;        
-      margin:0 auto;
-       }
+         [class*="col-"] {
+           padding-top:2em;
+           padding-left:-2em;        
+           margin:0 auto;
+         }
            
-     
-      .seven {
-          p{ 
-            color:#9E459A;   
-          } 
-      }
-    
-    
-    
-    .nine, .ten, .twelve {
-          p{
-            margin-left:-1.5em;
-            
-          } 
-      }
-     
-}
-}
+           .seven {
+              a{ 
+               color:#9E459A;   
+               } 
+             }  
+           .nine, .ten, .twelve {
+                a{
+                margin-left:-1.5em;
+                 } 
+            }
+       }
+   }
 
-
+    %shape_text_h3{
+        margin-top:3em;    
+        font-size:1.5rem;
+        color:#484848;
+        text-align: center; 
+    }
+    %shape_p{
+         margin-top:2em;
+         padding:1em;
+         padding-bottom:8em;
+         text-align: center;
+         line-height: 1.5rem;
+         color:#484848;
+         font-size:0.9rem;   
+    }
 .shapes{ 
     height:90%;
     background-color:#EEEEEE;
-.row{
-    margin:0 auto;
-    width:100%;
-    max-width:1200px;
-    height:100%;
-    
-    .first{
-        .shape{
-           
-        background-image: url(../images/empty_violet_shape.png);
-        background-repeat: no-repeat;
-        background-position: center;
-        background-size: contain;
-        margin-top:5em;
-       
-            
-        img{
-           
-          margin:auto;
-          padding:3em; 
-        }
-        }
+   .row{
+       @extend %row_position;
+       padding-top:5em;
         
-        .textBox{
-        h3{
-          margin-top:3em;    
-          font-size:1.5rem;
-          color:#484848;
-           text-align: center; 
-        }
-        p{
-          margin-top:2em;
-            padding:1em;
-             padding-bottom:8em;
-            text-align: center;
-            line-height: 1.5rem;
-            color:#484848;
-            font-size:0.9rem;
-        }
-        
-    }
-        
-    }
-     .second, .third, .four{
-         
-         .shape{
-             
-        background-image: url(../images/empty_violet_shape.png);
-        background-repeat: no-repeat;
-        background-position: center;
-        background-size: contain;
-        margin-top:5em;
-         
-            
-        img{
-          margin:auto;
-          padding:3em;    
-        }
+     .first{
+        .shape{    
+          background-image: url(../images/empty_violet_shape.png);
+          @extend %background_position;
+          margin-top:5em;   
+            img{ 
+             margin:auto;
+             padding:3em; 
+            }
          }
         
         .textBox{
-            
-        h3{
-          margin-top:3em;    
-          font-size:1.5rem;
-          color:#484848;
-           text-align: center; 
-            
-        }
-        p{
-            margin-top:2em;
-            padding:1em;
-            padding-bottom:8em;
-            text-align: center;
-            line-height: 1.5rem;
-            color:#484848;
-            font-size:0.9rem;
+           h3{
+           @extend %shape_text_h3;
+            }
+           p{
+           @extend %shape_p;
+            }   
         }
         
     }
-         
-         
-         
-         
-         
-         
-    
-  
-}
-
-
-    
-}
-}
+    .second, .third, .four{ 
+       .shape{  
+          background-image: url(../images/empty_violet_shape.png);
+          @extend %background_position;
+          margin-top:5em;     
+           img{
+             margin:auto;
+             padding:3em;    
+           }
+         } 
+        
+        .textBox{    
+           h3{
+              @extend %shape_text_h3;
+          }
+          p{
+            @extend %shape_p;
+          }    
+        }     
+    } 
+   }
+ }
 }

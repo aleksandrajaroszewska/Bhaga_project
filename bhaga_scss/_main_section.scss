@@ -2,157 +2,126 @@
 
 .main {
    background-image: url("../images/main_picture-1.jpg");
-   width: auto;
-     
+   width:auto;
+   background-position:center;
+    
     .row{
         margin:0 auto;
         height:50%;
         width:100%;
-        max-width:1200px;
-       
-        
+        max-width:1200px;     
+      }
+    
+    .mainTop {  //górne napisy
+       .top { //kolumny
+          margin:auto;
+          margin-bottom:2em;
+          text-align: center;
+          padding-top:3em;
+          color:white;
+          font-family: lato, sans-serif;
+          font-weight:lighter;
+              img{ //napis Bhagaskara
+                margin:auto;
+               }
+               h1{
+                font-size:2.3rem;
+                }
+              h2{ 
+                font-size:1.3rem;
+                padding-top:1.5rem;  
+                }
+         }
     }
     
-    .mainTop {
+    .mainBottom{  // część z ikonami 
         
-        .top {
-            margin:auto;
-            margin-bottom:2em;
-            text-align: center;
-            padding-top:5em;
-            color:white;
-            font-family: lato, sans-serif;
-            font-weight:lighter;
-            img{
-                margin:auto;
-            }
-             h1{
-             font-size:2.43rem;
-             }
-              h2{
-                
-                font-size:1.37rem;
-                padding-top:1.5rem;  
-              }
-        }
-      
-    } 
-    
-    .mainBottom{
-           
         .topIkon, .midIkon {
-          height:13em;
-        }
-          .topIkon { 
-                
-              .boxLeft{ 
-                width:100%;
-                height:100%;
-             
-                background-image:url("../images/empty_shape.png");
-                background-repeat: no-repeat;
-                background-position: center;
-                background-size: contain;
+          height:9.2em;
+           }
+        
+        .topIkon {   //górne ikony
+           .boxLeft{ //lewa górna ikona
+              background-image:url("../images/empty_shape.png");
+              @extend %background_position;
+                img{
+                 @extend %ikon_position;
+                  }
+                p {
+                  @extend %ikon_text;
+                     a {
+                      color:white;   
+                       }
+                  }
+              }  
+            
+          .boxRight {//prawa górna ikona     
+             background-image:url("../images/violet_shape.png");
+             @extend %background_position;
                   img{
-                      margin:auto;
-                      padding-top:3em;
-                     
+                    @extend %ikon_position;
+                   }
+                   p {
+                  @extend %ikon_text;
+                     a {
+                      color:white;   
+                      }
                   }
-                  p{
-                      color:white;
-                      text-align: center;
-                      padding-top:1em;
-                  }
-              }
-               .boxRight {
                    
-                   width:100%;
-                   height:100%;
-                   background-image:url("../images/violet_shape.png");
-                   background-repeat: no-repeat;
-                   background-position: center;
-                  background-size: contain;
+            }
+              
+        } 
+        
+        .midIkon{ //rząd z z dolnymi ikonami
+            .boxLeft{  //ikony zewnętrzne
+                background-image:url("../images/empty_shape.png");
+                 @extend %background_position;
+                  img{
+                 @extend %ikon_position;
+                  }
+                p {
+                  @extend %ikon_text;
+                     a {
+                      color:white;   
+                      }
+                    }
+              }
+            
+            .boxRight { //ikony wewnętrzne  
+                background-image:url("../images/empty_shape.png");
+                 @extend %background_position;
                   
                    img{
-                      margin:auto;
-                      padding-top:3em;
-                       
-                      
+                 @extend %ikon_position;
                   }
-                    p{
-                      color:white;
-                      text-align: center;
-                      padding-top:1em;
-                  }
+                p {
+                  @extend %ikon_text;
+                     a {
+                      color:white;   
+                      }
+                    }
+                           
               }
+          }
               
-          } 
-        
-        .midIkon{
-            .boxLeft{ 
-                width:100%;
-                height:100%;
-             
-                background-image:url("../images/empty_shape.png");
-                background-repeat: no-repeat;
-                background-position: center;
-                  background-size: contain;
-                  img{
-                      margin:auto;
-                      padding-top:3em;
-                     
-                  }
-                  p{
-                      color:white;
-                      text-align: center;
-                      padding-top:1em;
-                  }
-              }
-               .boxRight {
-                   
-                   width:100%;
-                   height:100%;
-                   background-image:url("../images/empty_shape.png");
-                   background-repeat: no-repeat;
-                   background-position: center;
-                  background-size: contain;
-                  
-                   img{
-                      margin:auto;
-                      padding-top:3em;
-                       
-                      
-                  }
-                    p{
-                      color:white;
-                      text-align: center;
-                      padding-top:1em;
-                  }
-              }
-              
-          }  
-        
-        
-        
-        
-        .botIkon{
-           height:8em;
-            .box {
-                width:100%;
-                height:100%;
-                 background-image:url("../images/empty_shape.png");
-                  background-repeat: no-repeat;
-                  background-position: center;
-                  background-size: 4em;
+    }  
+          
+  .botIkon{ //dolna strzałka
+      height:4.2em;
+      margin-bottom:2em;
+        .box {
+           
+            background-image:url("../images/empty_shape.png");
+             @extend %background_position;
+             background-size: 4em;
                   
                 img{
                     margin:auto;
-                    padding-top:3.5em;
+                    padding-top:1.5em;
                 }
-            }
-        }
+         }
+    }
         
-      }
+ }
 
 
-}
