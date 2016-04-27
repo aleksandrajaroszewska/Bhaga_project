@@ -13,7 +13,7 @@
   background-position: center;
   background-size: contain; }
 
-.nav_section nav .row, .nav_section .shapes .row, .about .row, .bottom_photo .row, .our_team .row, .skills .row, .services .row, .portfolio .row, .form .row, .foot .row {
+.nav_section nav .row, .nav_section .shapes .row, .about .row, .bottom_photo .row, .our_team .row, .skills .row, .services .infinite_slider .row, .portfolio .row, .form .row, .foot .row {
   margin: 0 auto;
   height: 100%;
   width: 100%;
@@ -322,43 +322,100 @@
   width: auto;
   height: 100%;
   background-color: #EEEEEE; }
-  .services .row .digit {
-    margin-top: 6em;
-    text-align: center;
-    font-family: lato, sans-serif; }
-    .services .row .digit h3 {
-      font-size: 4rem; }
-    .services .row .digit p {
-      font-size: 1.2rem;
-      padding: 2em;
-      color: #ACACAC; }
-  .services .row .circle {
-    margin: auto;
-    width: 10em;
-    height: 10em;
-    background-color: #CDCDCD;
-    border-radius: 50%; }
-  .services .row .text {
-    color: #484848;
-    text-align: center;
-    padding: 1em; }
-    .services .row .text h2 {
-      font-size: 2rem; }
-    .services .row .text p {
-      font-size: 1rem;
-      margin-top: 1em;
-      font-weight: bold;
+  .services .infinite_slider {
+    height: 50em;
+    overflow: hidden;
+    position: relative;
+    width: 100%; }
+    .services .infinite_slider .slide {
+      margin: 0 auto;
+      position: absolute;
+      opacity: 0;
+      padding-left: 6em;
+      animation-name: next-slide;
+      animation-duration: 30s;
+      animation-fill-mode: forwards;
+      animation-iteration-count: infinite; }
+    .services .infinite_slider .slide:first-child {
+      animation-delay: 0s; }
+    .services .infinite_slider .slide:nth-child(2) {
+      animation-delay: 5s; }
+    .services .infinite_slider .slide:nth-child(3) {
+      animation-delay: 10s; }
+    .services .infinite_slider .slide:nth-child(4) {
+      animation-delay: 15s; }
+    .services .infinite_slider .slide:nth-child(5) {
+      animation-delay: 20s; }
+    .services .infinite_slider .slide:nth-child(6) {
+      animation-delay: 25s; }
+@keyframes next-slide {
+  0% {
+    opacity: 0; }
+  10% {
+    opacity: 1; }
+  30% {
+    opacity: 0; } }
+    .services .infinite_slider .row .digit {
+      margin-top: 4em;
+      text-align: center;
+      font-family: lato, sans-serif; }
+      .services .infinite_slider .row .digit h3 {
+        font-size: 4rem; }
+      .services .infinite_slider .row .digit p {
+        font-size: 1.2rem;
+        padding: 2em;
+        color: #ACACAC; }
+    .services .infinite_slider .row .circle {
+      margin: auto;
+      width: 10em;
+      height: 10em;
+      background-color: #CDCDCD;
+      border-radius: 50%; }
+    .services .infinite_slider .row .text {
+      color: #484848;
+      text-align: center;
       padding: 1em; }
-    .services .row .text .spanBox {
-      padding: 2em; }
-      .services .row .text .spanBox span {
+      .services .infinite_slider .row .text h2 {
+        font-size: 2rem; }
+      .services .infinite_slider .row .text p {
+        font-size: 1rem;
+        margin-top: 1em;
+        font-weight: bold;
+        padding: 1em; }
+    .services .infinite_slider .spanBox {
+      padding: 2em;
+      position: absolute;
+      top: 35em;
+      left: 30em; }
+      .services .infinite_slider .spanBox span {
         display: inline-block;
         padding: 0.3em;
         margin-left: 1em;
         border-radius: 50%;
-        border: 0.1em solid grey; }
-        .services .row .text .spanBox span:nth-child(4) {
-          background-color: #484848; }
+        border: 0.1em solid grey;
+        animation-name: next-bullet;
+        animation-duration: 30s;
+        animation-fill-mode: forwards;
+        animation-iteration-count: infinite; }
+@keyframes next-bullet {
+  0% {
+    background-color: white; }
+  10% {
+    background-color: grey; }
+  20% {
+    background-color: white; } }
+    .services .infinite_slider span:first-child {
+      animation-delay: 0s; }
+    .services .infinite_slider span:nth-child(2) {
+      animation-delay: 5s; }
+    .services .infinite_slider span:nth-child(3) {
+      animation-delay: 10s; }
+    .services .infinite_slider span:nth-child(4) {
+      animation-delay: 15s; }
+    .services .infinite_slider span:nth-child(5) {
+      animation-delay: 20s; }
+    .services .infinite_slider span:nth-child(5) {
+      animation-delay: 25s; }
 
 .portfolio {
   width: auto;
