@@ -13,14 +13,14 @@
   background-position: center;
   background-size: contain; }
 
-.nav_section nav .row, .nav_section .shapes .row, .about .row, .bottom_photo .row, .our_team .row, .skills .row, .services .infinite_slider .row, .portfolio .row, .form .row, .foot .row {
+.nav_section nav .row, .nav_section .shapes .row, .about .row, .bottom_photo .row, .our_team .row, .skills .row, .services .infinite_slider .row, .portfolio .row, .formWrapper .row, .foot .row {
   margin: 0 auto;
   height: 100%;
   width: 100%;
   max-width: 1200px;
   box-sizing: border-box; }
 
-.portfolio .row button, .form .row button {
+.portfolio .row button, .formWrapper .row button {
   width: 9em;
   height: 3em;
   margin: auto;
@@ -475,63 +475,65 @@
       font-size: 1rem;
       color: #CDCDCD; }
 
-.form {
+.error {
+  border: 2px solid red; }
+
+.formWrapper {
   width: auto;
   height: 100%; }
-  .form .row .aboutBox {
+  .formWrapper .row .aboutBox {
     margin: 0 auto;
     padding: 1em; }
-    .form .row .aboutBox .topL {
+    .formWrapper .row .aboutBox .topL {
       width: 100%;
       height: 2em;
       background-image: url(../images/L-shape.png);
       background-repeat: no-repeat;
       background-position: left;
       transform: rotate(180deg); }
-    .form .row .aboutBox .botL {
+    .formWrapper .row .aboutBox .botL {
       width: 100%;
       height: 2em;
       background-image: url(../images/L-shape.png);
       background-repeat: no-repeat; }
-    .form .row .aboutBox p {
+    .formWrapper .row .aboutBox p {
       text-align: center;
       color: #8D8D8D;
       font-size: 3rem;
       padding: 0.3em; }
-      .form .row .aboutBox p span {
+      .formWrapper .row .aboutBox p span {
         color: #9E459A; }
-  .form .row:first-child {
+  .formWrapper .row:first-child {
     padding-top: 4em; }
-  .form .row .form-group {
+  .formWrapper .row .form-group {
     padding: 0.5em;
     margin-top: 0.5em; }
-  .form .row .form-control {
-    color: black;
-    font-size: 1.3rem;
-    padding: 1.5em;
-    border: 1px solid #878787; }
-  .form .row ::-webkit-input-placeholder {
-    color: black; }
-  .form .row :-moz-placeholder {
-    /* Firefox 18- */
-    color: black; }
-  .form .row ::-moz-placeholder {
-    /* Firefox 19+ */
-    color: black; }
-  .form .row :-ms-input-placeholder {
-    color: black; }
-  .form .row .text p:nth-child(1) {
+    .formWrapper .row .form-group .form-field {
+      color: black;
+      font-size: 1.3rem;
+      padding: 1.5em; }
+    .formWrapper .row .form-group ::-webkit-input-placeholder {
+      color: black; }
+    .formWrapper .row .form-group :-moz-placeholder {
+      /* Firefox 18- */
+      color: black; }
+    .formWrapper .row .form-group ::-moz-placeholder {
+      /* Firefox 19+ */
+      color: black; }
+    .formWrapper .row .form-group :-ms-input-placeholder {
+      color: black; }
+  .formWrapper .row .text p:nth-child(1) {
     text-align: left;
     font-size: 1.3rem;
     padding: 1em;
     line-height: 1.3em; }
-  .form .row .text p:nth-child(2), .form .row .text p:nth-child(3) {
+  .formWrapper .row .text p:nth-child(2), .formWrapper .row .text p:nth-child(3) {
     text-align: left;
     font-size: 1.4rem;
     padding: 1em;
     font-weight: 900;
     line-height: 1.3em; }
-  .form .row .text img {
+  .formWrapper .row .text img {
     width: 4em;
     height: 4em;
     margin: 0.5em;

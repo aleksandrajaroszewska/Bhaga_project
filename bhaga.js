@@ -130,6 +130,41 @@ $(document).ready(function(){
     
 });
 
+document.addEventListener('DOMContentLoaded', function() {
+
+  var form = document.getElementById('contact-form');
+
+  form.addEventListener('submit', function(event) {
+
+    var valid = true;
+
+    var inputs = form.getElementsByClassName('form-field');
+
+    for(var i=0; i < inputs.length; i++) {
+
+      inputs[i].classList.remove('error');
+      var value = inputs[i].value;
+
+      if(!value.trim()) {
+        inputs[i].classList.add('error');
+        valid = false;
+      }
+
+      if(inputs[i].classList.contains('field-email')) {
+        if(value.indexOf('@') === -1) {
+          inputs[i].classList.add('error');
+          valid = false;
+        }
+      }
+    }
+
+    if(!valid) {
+      event.preventDefault();
+    }
+
+  });
+
+});
 
 
 

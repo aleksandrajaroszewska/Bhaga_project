@@ -1,4 +1,8 @@
-.form{ 
+  .error{
+             border:2px solid red;
+}
+
+.formWrapper{ 
     width:auto;
     height:100%;
     
@@ -8,19 +12,19 @@
          &:first-child{
         padding-top:4em;
              
-    }  
+    } 
+       
         .form-group{
             padding:0.5em;
             margin-top:0.5em;
-        }   
-            .form-control {
+           
+             .form-field {
                 color:black;
                 font-size:1.3rem;
                 padding:1.5em;
-                border:1px solid #878787;
+               
             }
-        
-        ::-webkit-input-placeholder {
+              ::-webkit-input-placeholder {
        color: black;
         }
         :-moz-placeholder { /* Firefox 18- */
@@ -32,6 +36,12 @@
        :-ms-input-placeholder {  
       color: black;  
        }
+            
+            
+        }   
+           
+        
+      
          button{
          
                @extend %button;
