@@ -97,7 +97,8 @@
     font-size: 1rem;
     z-index: 10; }
     .nav_section nav .row {
-      color: #8D8D8D; }
+      color: #8D8D8D;
+      background-color: white; }
       .nav_section nav .row [class*="col-"] {
         padding-top: 2em;
         padding-left: -2em;
@@ -325,13 +326,12 @@
   .services .infinite_slider {
     height: 50em;
     overflow: hidden;
-    position: relative;
-    width: 100%; }
+    position: relative; }
     .services .infinite_slider .slide {
       margin: 0 auto;
       position: absolute;
       opacity: 0;
-      padding-left: 6em;
+      width: 100%;
       animation-name: next-slide;
       animation-duration: 30s;
       animation-fill-mode: forwards;
@@ -351,9 +351,10 @@
 @keyframes next-slide {
   0% {
     opacity: 0; }
-  10% {
-    opacity: 1; }
-  30% {
+  5% {
+    opacity: 1;
+    z-index: 100; }
+  100% {
     opacity: 0; } }
     .services .infinite_slider .row .digit {
       margin-top: 4em;
@@ -383,14 +384,11 @@
         font-weight: bold;
         padding: 1em; }
     .services .infinite_slider .spanBox {
-      padding: 2em;
-      position: absolute;
-      top: 35em;
-      left: 30em; }
+      padding: 2em; }
       .services .infinite_slider .spanBox span {
         display: inline-block;
-        padding: 0.3em;
-        margin-left: 1em;
+        padding: 0.2em;
+        margin-left: 0.5em;
         border-radius: 50%;
         border: 0.1em solid grey;
         animation-name: next-bullet;
@@ -400,9 +398,9 @@
 @keyframes next-bullet {
   0% {
     background-color: white; }
-  10% {
+  5% {
     background-color: grey; }
-  20% {
+  100% {
     background-color: white; } }
     .services .infinite_slider span:first-child {
       animation-delay: 0s; }
@@ -552,7 +550,9 @@
 body {
   height: 100%;
   font-family: lato, sans-serif;
-  box-sizing: border-box; }
+  box-sizing: border-box;
+  max-width: 1200px;
+  margin: 0 auto; }
 
 [class*="col-"] {
   min-height: 1em; }

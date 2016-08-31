@@ -7,9 +7,11 @@
        color:#8D8D8D;
        font-size:1rem;
        z-index: 10;
+       
        .row{
          @extend %row_position;
           color:#8D8D8D;
+          background-color: white;
       
          [class*="col-"] {
            padding-top:2em;
